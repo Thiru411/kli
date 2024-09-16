@@ -1,0 +1,65 @@
+var customer_type = $(".customer-type").attr("data-customer-type"),
+    categoryGA = "";
+categoryGA = "existing_customer" == customer_type ? "existing customers" : "new_customer" == customer_type ? "new customers" : "life_advisor" == customer_type ? "life advisor" : "new customers";
+var gridBox01 = function() { $("ul.reportUL > li").removeAttr("style"); for (var e, a = $("ul.reportUL").length, t = 0, r = 0; r < a; r++) { maxDivWid = parseInt($("ul.reportUL").eq(r).css("width")), divWid = parseInt($("ul.reportUL").eq(r).find("li").css("width")); var s = $("ul.reportUL").eq(r).find("li").length,
+                o = Math.round(maxDivWid / divWid); for (h = 0; h < s; h++) { for (var l = h; l < o + h; l++) t < (e = parseInt($("ul.reportUL").eq(r).find(" > li").eq(l).css("height"))) && (t = e); for (var n = h; n < o + h; n++) $("ul.reportUL").eq(r).find(" > li").eq(n).css("height", t);
+                h += o - 1, t = 0 } } },
+    loadArticleData = function(e) { var a = parseInt($("#pageNo").val()),
+            t = $("#url").val(),
+            r = $("#sortType").val(),
+            s = $("#pageLimit").val(),
+            o = $("#topicSlug").val(),
+            l = $("#searchArticle").val(),
+            n = $("base").attr("href"),
+            c = $("#pageType").val();
+        $(".noRecord").text("").css("display", "none"), $("#load-more-articles").css("display", "none"), $(".innerLoader").css("display", "block"), $.ajax({ url: "topic" == c ? n + "insurance-guide/articles/load-more" : n + "insurance-guide/tag-articles/load-more", type: "post", contentType: "application/json; charset=UTF-8", data: JSON.stringify({ page: a, sortType: r, topicSlug: o, searchArticle: l, url: t }), dataType: "json", success: function(e) { var t = e,
+                    r = t.nextDataCount; if (t.success) { var o = t.data,
+                        n = (RegExp(l, "gi"), "");
+                    o.length && ($("#pageNo").val(parseInt(a) + 1), n = t.newhtmldata, $("#articles-div").append(n)), o.length < s || 0 == r ? (0 == a && 0 == o.length && $(".noRecord").text("").text(t.message).css("display", "block"), $("#load-more-articles").css("display", "none")) : $("#load-more-articles").css("display", "table"), $(".innerLoader").css("display", "none"), gridBox01() } } }) },
+    loadGlossaryData = function(e) { var a = $("#pageNo").val(),
+            t = $("#keyword").val(),
+            r = $("#pageLimit").val(),
+            s = $("base").attr("href");
+        $("#users-name-error, #users-email-error, #users-keyword-error, #form-success, #form-error").text("").css("display", "none"), $(".noRecord").text("").css("display", "none"), $("#load-more-glossary").css("display", "none"), $(".innerLoader").css("display", "block"), $.ajax({ url: s + "insurance-guide/glossary/load-more", type: "post", contentType: "application/json; charset=UTF-8", data: JSON.stringify({ page: a, keyword: t }), dataType: "json", success: function(e) { var s = e,
+                    o = s.nextDataCount; if (s.success) { var l = s.data,
+                        n = RegExp(t, "gi"),
+                        c = "",
+                        d = "",
+                        p = "",
+                        g = ""; if (l.length) { for ($("#pageNo").val(parseInt(a) + 1), i = 0; i < l.length; i++) c = l[i].title, d = t.length > 1 ? l[i].description.replace(n, "<b>" + t + "</b>") : l[i].description, g += '<li class="ga_track" data-event="event glossary alphabets search" data-action="glossary search clicks" data-label="' + (p = l[i].title.toLowerCase()) + '"><div class="reportBox"><h3>' + c + "</h3><p>" + d + "</p></div></li>";
+                        $("#glossary-div").append(g) }
+                    l.length < r || 0 == o ? (0 == a && 0 == l.length && $(".noRecord").text("").text(s.message).css("display", "block"), $("#load-more-glossary").css("display", "none")) : $("#load-more-glossary").css("display", "table"), $(".innerLoader").css("display", "none"), gridBox01() } else 0 == a && $(".noRecord").text("").text(s.message) } }) },
+    loadFaqsData = function() { var e = $("#pageNo").val(),
+            a = $("#searchQues").val(),
+            t = $("#pageLimit").val(),
+            r = $("base").attr("href");
+        $(".noRecord").text("").css("display", "none"), $("#load-more-faqs").css("display", "none"), $(".innerLoader").css("display", "block"), 0 == parseInt(e) && $('script[type="application/ld+json"]').length >= 1 && $('script[type="application/ld+json"]').remove(), $.ajax({ url: r + "insurance-guide/policy-faqs/load-more", type: "post", contentType: "application/json; charset=UTF-8", data: JSON.stringify({ page: e, keyword: a }), dataType: "json", success: function(r) { var s = r,
+                    o = RegExp(a, "gi"),
+                    l = "",
+                    n = "",
+                    c = s.nextDataCount; if (s.success) { var d = s.data,
+                        p = "",
+                        g = ""; if (d.length) { for ($("#pageNo").val(parseInt(e) + 1), i = 0; i < d.length; i++) l = d[i].title, n = a.length >= 1 ? d[i].description.replace(o, "<b>" + a + "</b>") : d[i].description, g += '<li class="ga_track" data-event="event policy faq" data-action="policy faqs" data-label="' + (p = "read more|" + d[i].title.toLowerCase()) + '" ><h3><span>' + l + '</span></h3><div class="accordDesc">' + n + "</div></li>", generateIndexingScripts("faqs", d[i]);
+                        $("#faqs-div").append(g), $(window).scrollTop($("#faqsWrapDiv").offset().top - 50) }
+                    d.length < t || 0 == c ? (0 == e && 0 == d.length && $(".noRecord").text("").text(s.message).css("display", "block"), $("#load-more-faqs").css("display", "none")) : $("#load-more-faqs").css("display", "table"), $(".innerLoader").css("display", "none"), gridBox01() } else 0 == e && $(".noRecord").text("").text(s.message) } }) },
+    generateIndexingScripts = function(e, a) { if ("insurance-guide" == e) { var t, r = a,
+                s = document.createElement("script"),
+                o = "";
+            t = $("meta[name=description]").attr("content").length ? $("meta[name=description]").attr("content") : r.description, o = $("head > title").text().length ? $("head > title").text() : r.headline, s.type = "application/ld+json", s.id = r.entry_id, s.text = '{"@context": "http://schema.org","@type": "Article","datePublished": "' + r.date_published + '","dateModified": "' + r.date_modified + '","author": [{"@type": "Organization","name": "' + r.org_name + '","logo": [{"@type": "ImageObject","Url": "' + r.org_img_url + '","contentUrl": "' + r.org_content_url + '","name": "' + r.org_img_alt + '"}]}],"description": "' + t + '","headline": "' + o + '","image": [{"@type": "ImageObject","Url": "' + base_url + r.img_url + '","contentUrl": "' + r.img_name + '","height": "' + r.img_height + '","width": "' + r.img_width + '","name": "' + r.page_title + '"}],"publisher": [{"@type": "Organization","name": "' + r.org_name + '","logo": [{"@type": "ImageObject","Url": "' + r.org_img_url + '","contentUrl": "' + r.org_content_url + '","name": "' + r.org_img_alt + '"}]}],"mainEntityofPage": {"@type": "WebPage"}}', document.getElementsByTagName("head")[0].appendChild(s) } else if ("faqs" == e) { var r = a,
+                s = document.createElement("script");
+            s.type = "application/ld+json", s.id = r.entry_id; var l = "";
+            l = r.schemadescription ? r.schemadescription : r.description, s.text = '{"@context": "http://schema.org","@type": "Question","text": "' + r.title + '","author": [{"@type": "Organization","name": "' + r.org_name + '","logo": [{"@type": "ImageObject","Url": "' + r.org_img_url + '","contentUrl": "' + r.org_content_url + '","name": "' + r.org_img_alt + '"}]}],"acceptedAnswer": {"text": "' + l + '","author": [{"@type": "Organization","name": "' + r.org_name + '","logo": [{"@type": "ImageObject","Url": "' + r.org_img_url + '","contentUrl": "' + r.org_content_url + '","name": "' + r.org_img_alt + '"}]}]}}', document.getElementsByTagName("head")[0].appendChild(s) } };
+$(document).ready(function() { if (1 == $("#trackingInfo").length) { var e = JSON.parse($("#trackingInfo").text());
+        generateIndexingScripts("insurance-guide", e) }
+    $("ul.mostVisited li a").click(function() { $("ul.mostVisited li a").removeClass("selected"), $(this).addClass("selected"); var e = "Most Recent" == $(this).text() ? "recent" : "viewed";
+        $("#sortType").val("").val(e), $("#search-article, #searchArticle").val(""), $("#pageNo").val(0), $("#articles-div li").remove(), $("#load-more-articles").text("").text("Load More").css("display", "table"), loadArticleData() }), $("#load-more-articles").click(function() { loadArticleData() }), $("#search-article-btn").click(function(e) { var a = $.trim($("#search-article").val()); return e.preventDefault(), "" == a || "Search for article" == a ? $("#searchArticle").val("") : ($("#searchArticle").val("").val(a), gaSearchTermTracking("event search", "search", $("#search-article").attr("data-action"), a.toLowerCase())), $("#pageNo").val(0), $("#articles-div li").remove(), loadArticleData(), !1 }), $("#search-article").keyup(function(e) { 13 == e.keyCode && $("#search-article-btn").click() }), 1 == $("section").find("ul#articles-div").length && loadArticleData(), 1 == $("section").find("ul#glossary-div").length && loadGlossaryData(), $("ul.glossaryUL li a").click(function() { $("ul.glossaryUL li a").removeClass("selected"), $(this).addClass("selected"); var e = $(this).text();
+        $("#search-keyword").val(""), $("#keyword").val("").val(e), $("#pageNo").val(0), $("#glossary-div li").remove(), loadGlossaryData() }), $("#load-more-glossary").click(function() { loadGlossaryData() }), $("#search-keyword-btn").click(function(e) { var a = $.trim($("#search-keyword").val()); return RegExp("^[a-zA-Z ]+$"), e.preventDefault(), $("ul.glossaryUL li a").removeClass("selected"), "" == a || "Search for word" == a ? $("ul.glossaryUL li a").eq(0).click() : ($("#keyword").val("").val(a), $("#pageNo").val(0), $("#glossary-div li").remove(), gaSearchTermTracking("event search", "search", $("#search-keyword").attr("data-action"), a.toLowerCase()), loadGlossaryData()), !1 }), $("#search-keyword").keyup(function(e) { 13 == e.keyCode && $("#search-keyword-btn").click() }), 1 == $("section").find("ul#faqs-div").length && loadFaqsData(), $("#load-more-faqs").click(function() { loadFaqsData() }), $("#search-question-btn").click(function(e) { var a = $.trim($("#search-question").val()); return e.preventDefault(), "" == a || "Search by your question" == a ? $("#searchQues").val("") : ($("#searchQues").val("").val(a), gaSearchTermTracking("event search", "search", $("#search-question").attr("data-action"), a.toLowerCase())), $("#pageNo").val(0), $("#faqs-div li").remove(), loadFaqsData(), !1 }), $("#search-question").keyup(function(e) { 13 == e.keyCode && $("#search-question-btn").click() }), $("#user-word-submit").click(function(e) { e.preventDefault(), $(".errorMsg, .successMeg").text(""); var a = "Name" !== $("#users-name").val() ? $("#users-name").val() : "",
+            t = "Email ID" !== $("#users-email").val() ? $("#users-email").val() : "",
+            r = "Write word here" !== $("#users-keyword").val() ? $("#users-keyword").val() : "",
+            s = $("base").attr("href");
+        $("#users-name-error, #users-email-error, #users-keyword-error, #form-success, #form-error").text("").css("display", "none"), $.ajax({ url: s + "insurance-guide/glossary/add-new", type: "post", data: "name=" + a + "&email=" + t + "&keyword=" + r, success: function(e) { var a = JSON.parse(e); if (a.success) $("#users-name, #users-email, #users-keyword").val(""), $("#form-success").text("").text(a.message).css("display", "block"), dataLayer && dataLayer.push({ event: "event write to us send", category: getSelectedTopMenu(), action: "glossary", label: "send click" });
+                else { var t = a.form_error;
+                    void 0 !== t.name && $("#users-name-error").text("").text(t.name).css("display", "block"), void 0 !== t.email && $("#users-email-error").text("").text(t.email).css("display", "block"), void 0 !== t.keyword && $("#users-keyword-error").text("").text(t.keyword).css("display", "block"), 0 == t.length && $("#form-error").text("").text(a.message).css("display", "block") } } }) }), $("ul.accordUL li h3").click(function() { $(this).addClass("active").parent("li").siblings("li").find("h3").removeClass("active"), $(this).parent("li").find(".accordDesc").slideDown().parents("li").siblings("li").find(".accordDesc").slideUp(); var e = parseInt($("header").height() + $(".second_navWrap").height()),
+            a = $(this);
+        a.parent().index() > 0 && setTimeout(function() { var t = parseInt(a.offset().top) - e;
+            $("html,body").animate({ scrollTop: t }, 500) }, 350) }).eq(0).click() }), $(window).bind("beforeunload", function() { 1 == $("section").find("#pageNo").length && $("#pageNo").val(0) });

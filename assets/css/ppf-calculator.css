@@ -1,0 +1,562 @@
+
+
+
+/*  */
+.headSection {
+    margin: 25px 0;
+  }
+  
+  /*  */
+  
+  .ppfCard {
+    border-radius: 6px;
+    padding: 2rem 2rem;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .ppfGrid {
+    display: grid;
+    grid-template-columns: 70% 25%;
+    gap: 20px;
+  }
+  
+  #ppfChart {
+    width: 225px !important;
+    height: 225px !important;
+  }
+  
+  .ppfGraph {
+    text-align: center;
+    border-radius: 8px;
+    padding: 0 20px 5px;
+  }
+  
+  .resultBox {
+    background-color: #EBF6FF;
+    border: 1px solid #C7D6E3;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+  }
+  
+  .pt10 {
+    padding-top: 10px;
+  }
+  
+  .pb15 {
+    padding-bottom: 15px;
+  }
+  
+  /*  */
+  .whatIsPPF-title,
+  .whyUsePPFCalculator-title,
+  .formulaForPPF-title,
+  .advantageofPPF-title,
+  .whatIsPPFund-title,
+  .benefitsOfInvesting-title,
+  .howToUsePPF-title,
+  .ppfExample-title,
+  .ppfInterestRates-title,
+  .alternativeOPtions-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000 !important;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    font-family: 'Lato-Bold';
+  }
+  
+  .whatIsPPF-desc,
+  .whyUsePPFCalculator-desc,
+  .formulaForPPF-desc,
+  .advantageofPPF-desc,
+  .whatIsPPFund-desc,
+  .benefitsOfInvesting-desc,
+  .howToUsePPF-desc,
+  .ppfExample-desc,
+  .ppfInterestRates-desc,
+  .alternativeOPtions-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000 !important;
+    letter-spacing: 0.3px;
+  }
+  
+  .whyUsePPFCalculator-subTitle,
+  .advantageofPPF-subTitle,
+  .benefitsOfInvesting-subTitle,
+  .howToUsePPF-subTitle,
+  .alternativeOPtions-subTitle {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+    letter-spacing: 0.3px;
+  }
+  
+  /*  */
+  #whatIsPPF {
+    margin: 25px 0;
+  }
+  
+  /*  */
+  #whyUsePPFCalculator {
+    margin: 25px 0;
+  }
+  
+  .whyUsePPFCalculator-sec {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  /*  */
+  #formulaForPPF {
+    margin: 25px 0;
+  }
+  
+  .formulaForPPF-formula {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .formulaForPPF-list {
+    margin-left: 20px;
+  }
+  
+  .formulaForPPF-list li {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 20px 10px 0;
+    color: #000;
+  }
+  
+  /*  */
+  #advantageofPPF {
+    margin: 25px 0;
+  }
+  
+  .advantageofPPF-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+    margin: 15px 0;
+  }
+  
+  .advantageofPPF-sec {
+    margin: 10px 0;
+  }
+  
+  /*  */
+  #whatIsPPFund {
+    margin: 25px 0;
+  }
+  
+  /*  */
+  #benefitsOfInvesting {
+    margin: 25px 0;
+  }
+  
+  .benefitsOfInvesting-sec {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  /*  */
+  #howToUsePPF {
+    margin: 25px 0;
+  }
+  
+  .howToUsePPF-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .howToUsePPF-card {
+    border: 1px solid #C7D6E3;
+    padding: 20px;
+    border-radius: 22px;
+    max-width: 275px;
+    min-height: 288px;
+    margin: 15px 0;
+  }
+  
+  .f15 {
+    font-size: 15px;
+  }
+  
+  /*  */
+  #ppfExample {
+    margin: 25px 0;
+  }
+  
+  .ppfExample-table {
+    margin: 15px 0;
+  }
+  
+  .ppfExample-table table {
+    background-color: #FFF !important;
+    text-align: center;
+  }
+  
+  .ppfExample-table table th {
+    background-color: #FFF !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.3px;
+    padding: 10px 20px;
+  }
+  
+  .ppfExample-table table tr td {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 0.3px;
+    padding: 10px 20px;
+  }
+  
+  .ppfExample-table table td ul li {
+    list-style: inside;
+  }
+  
+  /*  */
+  #ppfInterestRates {
+    margin: 25px 0;
+  }
+  
+  /*  */
+  #alternativeOPtions {
+    margin: 25px 0;
+  }
+  
+  .alternativeOPtions-sec {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Slider css */
+  .form-range {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  
+  .form-range {
+    color: #ed1c24;
+    --thumb-height: 1.125em;
+    --track-height: 1px;
+    --track-color: rgba(0, 0, 0, 0.1);
+    --clip-edges: 0.125em;
+  }
+  
+  .form-range {
+    position: relative;
+    background: #fff0;
+    overflow: hidden;
+  }
+  
+  .form-range:active {
+    cursor: grabbing;
+  }
+  
+  /* === WebKit specific styles === */
+  .form-range,
+  .form-range::-webkit-slider-runnable-track,
+  .form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    transition: all ease 100ms;
+    height: var(--thumb-height);
+  }
+  
+  .form-range::-webkit-slider-runnable-track,
+  .form-range::-webkit-slider-thumb {
+    position: relative;
+  }
+  
+  .form-range::-webkit-slider-thumb {
+    --thumb-radius: calc(1.125em * 0.5) - 1px;
+    --clip-top: calc((var(--thumb-height) - var(--track-height)) * 0.5 - 0.5px);
+    --clip-bottom: calc(var(--thumb-height) - var(--clip-top));
+    --clip-further: calc(100% + 1px);
+    --box-fill: calc(-100vmax - var(--thumb-width, var(--thumb-height))) 0 0 100vmax #ffbebe;
+  
+    width: var(--thumb-width, var(--thumb-height));
+    background: linear-gradient(currentColor 0 0) scroll no-repeat left center / 50% calc(var(--track-height) + 1px);
+    background-color: currentColor;
+    box-shadow: var(--box-fill);
+    border-radius: var(--thumb-width, var(--thumb-height));
+  
+    filter: brightness(100%);
+    clip-path: polygon(100% -1px,
+        var(--clip-edges) -1px,
+        0 var(--clip-top),
+        -100vmax var(--clip-top),
+        -100vmax var(--clip-bottom),
+        0 var(--clip-bottom),
+        var(--clip-edges) 100%,
+        var(--clip-further) var(--clip-further));
+  }
+  
+  .form-range:active::-webkit-slider-thumb {
+    filter: brightness(var(--brightness-down));
+    cursor: grabbing;
+  }
+  
+  .form-range::-webkit-slider-runnable-track {
+    background: linear-gradient(var(--track-color) 0 0) scroll no-repeat center / 100% calc(var(--track-height) + 1px);
+  }
+  
+  /* Slider Css ends */
+  
+  .hide-span {
+    display: none;
+  }
+  
+  .investAmtFd {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+  }
+  
+  .investedTxtFd {
+    color: #000;
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  
+  .totalValueFd {
+    font-size: 22px;
+    color: #333;
+    font-weight: 800;
+  }
+  
+  .totalValuetxtFd {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .totalInvestReturnsFd {
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .investeAmounttxtFd {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  
+  
+  .seperator {
+    margin: 1.5rem 0 !important;
+    border-top: 1px dotted #333;
+  }
+  
+  .investAmtFd {
+    border-bottom: 1px solid #333;
+    padding-bottom: 12px;
+  }
+  
+  .totalReturnsFd {
+    padding: 12px 0;
+  }
+  
+  .totalAmtFd,
+  .investAmtFd,
+  .totalReturnsFd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .productCard-invest {
+    padding: 8px 30px;
+    /* width: 45%; */
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    background-color: #ed3237;
+    border-radius: 30px;
+    position: relative !important;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin: 25px 0 0;
+  }
+  
+  .productCard-invest:hover {
+    color: #FFF;
+  }
+  
+  .productCard-invest::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 4s ease-in-out infinite;
+  }
+  
+  
+  
+  @media only screen and (max-width:480px) {
+    .ppf1_arrow{width: 286px !important;}
+    .ppf2_arrow{width: 244px !important;}
+    .ppf3_arrow{width: 241px !important;}
+    .ppf4_arrow{width: 216px !important;}
+    .two_arrow { height: 36px !important; }
+    .tick_arrow { width: 199px !important; }
+    .alt_arrow { min-width: 24px !important;}
+  
+  
+    .ppfGrid,
+    .ppfCard,
+    .advantageofPPF-flex {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  
+    .howToUsePPF-sec {
+      flex-direction: column;
+    }
+  
+    .howToUsePPF-card {
+      min-width: 100%;
+      min-height: 100%;
+    }
+  
+    .ppfExample-table table {
+      border: 0;
+    }
+  
+    .ppfExample-table {
+      overflow-x: scroll;
+    }
+  
+    .ppfExample-table::-webkit-scrollbar {
+      display: none;
+    }
+  
+  }
+  
+  
+  /* Below animation */
+  @keyframes shiny-btn1 {
+    0% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0;
+    }
+  
+    80% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0.5;
+    }
+  
+    81% {
+      -webkit-transform: scale(4) rotate(45deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: scale(50) rotate(45deg);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes shiny-btn1 {
+    0% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0;
+    }
+  
+    80% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0.5;
+    }
+  
+    81% {
+      -webkit-transform: scale(4) rotate(45deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: scale(50) rotate(45deg);
+      opacity: 0;
+    }
+  }
+
+
+  .benefitsOfRetirement-img{
+  
+    background-image: url(../images/ppf-grauity-sprite.webp);
+    
+    }
+   
+    .ppf1_arrow{background-position: -919px 275px;
+        background-size: 238px;
+        min-width: 33px;
+        height: 44px;}
+    .ppf2_arrow{background-position: -705px 275px;
+        background-size: 235px;
+        min-width: 37px;
+        height: 44px;}
+    .ppf3_arrow{background-position: -1023px 275px;
+        background-size: 240px;
+       min-width: 37px;
+        height: 44px;}
+    .ppf4_arrow{background-position: -850px 275px;
+        background-size: 240px;
+        min-width: 37px;
+        height: 44px;}
+        .tick_arrow{background-position: -211px -1308px;
+            background-size: 212px;
+           min-width: 25px;
+            height: 23px;}
+            .alt_arrow{background-position: -266px -1309px;
+                background-size: 212px;
+              min-width: 25px;
+                height: 28px;}
+                .one_arrow{background-position: -210px -1337px;
+                    background-size: 212px;
+                    width: 56px;
+                    height: 35px;}
+                    .two_arrow{background-position: -266px -1189px;
+                        background-size: 212px;
+                        width: 80px;
+                        height: 33px;}

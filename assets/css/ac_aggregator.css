@@ -1,0 +1,89 @@
+body{font-family: "Lato", sans-serif;}
+*,h1,h2,h3,h4,h5,h6,p{padding: 0px;margin: 0px;}
+.midcontainer{width: 100%;max-width:1150px;margin: 0 auto;}
+.wrapper{width: 100%;margin: 0 auto; overflow: hidden;}
+img{max-width: 100%;height: auto;}
+
+.breadcrumbrs {display: flex;align-items: center;padding-top:15px;}
+.crumbes {list-style: none;display: flex;margin: 0;padding: 0;text-decoration: none;}
+.crumbes .how_do{text-decoration: none;letter-spacing: 0.28px;color: #8D8D8D;font-size: 14px;font-weight: 300;}
+.manege { margin-right: 10px;}
+.crumbes .how_do.active  {color: #ED1C24;font-weight: 400;}
+section{top:0;}
+footer{top:100px;} 
+.manage{top:110px;}
+.rbi_enterprise{padding:19px 0px 53px 0px;}
+.rbi_enterprise .account{color: #000000;font-size: 36px;text-align: center;font-weight: 700;width:100%;}
+.account_acc{letter-spacing: 0.26px;color: #000000;font-size: 17px;font-weight: 400;padding: 17px 0px;word-wrap:break-word;}
+.rbi_enterprise .root_img{margin-top: 36px;}
+.account_acc1{color: #000000;font-size: 17px;font-weight: 400;padding-top:6px;}
+.for_at{padding:0px}
+.info_users{color: #000000;font-size: 24px;font-weight: 700;}
+.account_acc a{color:#5db3ff;font-size:17px;}
+.account_acc a:hover{color:#5db3ff;}
+
+.account_acc1{color:#5db3ff;}
+.account_acc1:hover{color:#5db3ff;}
+
+.financial_users{background: #F8F8F8 0% 0% no-repeat padding-box;opacity: 1;padding: 51px 0px;}
+.financial_users .financial_row{width: 100%;max-width: 100%; display:flex;}
+.financial_users .financial_col{width: 50%;padding: 0 15px;}
+.financial_users .aling_center{align-self: center;}
+.financial_users .private{letter-spacing: 0.26px;color: #000000;font-size: 17px;font-weight: 700;}
+
+
+.financial_providers{padding: 53px 0px;}
+.financial_providers .financial_row{width: 100%;display:flex;}
+.financial_providers .financial_col{width: 50%;padding: 0 15px;}
+.financial_providers .aling_center{align-self: center;}
+
+
+.financial_customers{background: #F8F8F8 0% 0% no-repeat padding-box;opacity: 1;padding: 51px 0px;}
+.financial_customers .financial_row{width: 100%;display:flex;}
+.financial_customers .financial_col{width: 50%;padding: 0 15px;}
+.financial_customers .aling_center{align-self: center;}
+
+
+.financial_girevence{padding: 53px 0px;}
+.financial_girevence .financial_row{width: 100%;display:flex;}
+.financial_girevence .financial_col{width: 50%;padding: 0 15px;}
+.financial_girevence .aling_center{align-self: center;}
+
+
+.kotak_life{padding-bottom:0;}
+.word_break{padding:0;}
+
+
+@media only screen and (max-width: 991px) {
+    .midcontainer{padding: 0 25px;width: 100%;box-sizing: border-box;}
+
+}
+
+@media only screen and (max-width: 768px) {
+.manage{top:0px;}
+section{top:0;margin-top:0;}
+footer{top:0px;}
+
+.midcontainer{padding: 0 25px;width: 100%;box-sizing: border-box;}
+
+.info_users{font-size:18px;padding-top: 47px;}
+
+.rbi_enterprise .account{font-size:28px;}
+.financial_users .financial_row{width: 100%;flex-wrap: wrap;}
+.financial_users .financial_col{width:100%;padding: 0;}
+/* .financial_users .aling_center{align-self: unset;} */
+
+.financial_providers{padding: 53px 0px;}
+.financial_providers .financial_row{width: 100%;flex-wrap: wrap;flex-direction: column-reverse;}
+.financial_providers .financial_col{width:100%;padding: 0;}
+.financial_providers .aling_center{align-self:unset;}
+
+
+.financial_customers .financial_row{width: 100%;flex-wrap: wrap;}
+.financial_customers .financial_col{width:100%;padding: 0;}
+.financial_customers .aling_center{align-self:unset;}
+
+.financial_girevence .financial_row{width: 100%;flex-wrap: wrap;flex-direction: column-reverse;}
+.financial_girevence .financial_col{width:100%;padding: 0;}
+.financial_girevence .aling_center{align-self:unset;}
+}

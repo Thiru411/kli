@@ -1,0 +1,1033 @@
+.fullBg {
+    background-color: #f5f5f5;
+    padding: 25px;
+}
+.headGrid {
+    display: grid;
+    grid-template-columns: 75% 21%;
+    align-items: center;
+    gap: 4%;
+}
+.sectionTitle {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #000;
+    margin: 5px 0;
+}
+.sectionDesc {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #000;
+}
+.headImg img {
+    width: 100%;
+    height: auto;
+}
+.insurancePlans-title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #000;
+    margin: 5px 0;
+}
+.insurancePlans-desc {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #000;
+    padding: 5px 0;
+}
+.insurancePlans-subTitle {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #000;
+}
+.insurancePlans-subTitles {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #000;
+}
+.insurancePlans-table {
+    margin: 15px 0;
+}
+.insurancePlans-table table tr th {
+    color: #fff;
+    background-color: #003366 !important;
+    padding: 15px 20px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+.insurancePlans-table table tr td {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.safeguardtabs {
+    margin: 25px 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.safeguardtabs li {
+    color: #222;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 26px;
+    padding: 12px 35px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.safeguardtabs li.current {
+    background: #fff0 linear-gradient(90deg, #003974 0%, #0b4d88 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    border-radius: 26px;
+    padding: 12px 35px;
+}
+.safeguardtab-content {
+    display: none;
+    padding: 15px;
+}
+.safeguardtab-content.current {
+    display: inherit;
+}
+.safeguard-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.safeguard-card {
+    background-color: #fff;
+    width: 48%;
+    min-height: 455px;
+    padding: 30px 40px;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.safeguard-card-term {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 5%;
+    align-items: end;
+    width: 100%;
+    background-color: #fff;
+    min-height: 360px;
+    border-radius: 40px;
+}
+.safeguard-plantitle {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 5px 0;
+    color: #000;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+.safeguard-list {
+    padding: 0 0 15px 30px;
+    text-indent: -20px;
+}
+.safeguard-list li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000;
+    list-style: inside;
+}
+.safeguard-carddesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.safeguard-payget {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 15px;
+}
+.safeguard-carddesc strong {
+    font-weight: 700;
+}
+.safeguard-pay p,
+.safeguard-get p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    line-height: 30px;
+}
+.safeguard-pay .amt,
+.safeguard-get .amt {
+    font-size: 28px;
+    font-weight: 600;
+    color: #c41425;
+}
+.safeguard-pay .amt span {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.safeguard-get p sup {
+    vertical-align: super;
+    font-size: 10px;
+}
+.stickyProtection {
+    position: absolute;
+    top: 0;
+    border: 1px solid #d4d4d4;
+    font-size: 16px;
+    color: #6d6d6d;
+    border-top: none;
+    padding: 10px 35px;
+    left: 35%;
+    border-radius: 0 0 33px 33px;
+}
+.safeguard-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0 0;
+}
+.safeGuardterm {
+    justify-content: start !important;
+}
+.safeguard-btns .categoryBtn {
+    background: #fff0 linear-gradient(270deg, #82772d 0%, #c1cd23 100%) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    height: 46px;
+}
+.safeguard-btns .knowMore {
+    border: 1px solid #000;
+    border-radius: 35px;
+    padding: 9px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.safeguard-protection {
+    margin-top: 20px;
+}
+#whyChooseLifeInsurancePlans {
+    margin: 25px 0;
+}
+.whyChoose-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 25px;
+}
+.whyChooseimg {
+    height: 210px;
+}
+#typeOfLifeInsurance {
+    margin: 25px 0;
+}
+.typeOfLifeInsurance-flex {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+    margin: 20px 0 10px;
+}
+#benefitsOfLIP {
+    margin: 25px 0;
+}
+.benefitsOfLIP-grid,
+.whyBuyPolicy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+    margin: 15px 0;
+}
+.benefitsOfLIP-flxS,
+.whyBuyPolicy-flxS {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.benefitsOfLIP-list,
+.understandingLifeInsuranceCA-list,
+.howWillFamilyReceive-list {
+    margin: 10px 0;
+}
+.benefitsOfLIP-list li,
+.understandingLifeInsuranceCA-list li,
+.howWillFamilyReceive-list li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 0.3px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+#howToChooseBestLIC {
+    margin: 25px 0;
+}
+.howToChooseBestLIC-cards {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+.howToChooseBestLIC-card {
+    padding: 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    max-width: 254px;
+    min-height: 388px;
+}
+#whoCanBuyLIP {
+    margin: 25px 0;
+}
+.whoCanBuyLIP-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+}
+.whoCanBuyLIP-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 370px;
+    min-height: 300px;
+}
+#understandingLifeInsuranceCA {
+    margin: 25px 0;
+}
+.understandingLifeInsuranceCA-grid {
+    display: grid;
+    grid-template-columns: 40% 58%;
+    align-items: start;
+    gap: 20px;
+    margin: 10px 0;
+}
+.understandingLifeInsuranceCA-list img {
+    padding-top: 3px;
+}
+.understandingLifeInsuranceCA-list li strong {
+    font-weight: 600;
+}
+.understandingLifeInsuranceCA-list li p {
+    color: #000;
+}
+#diffBtnSection {
+    margin: 25px 0;
+}
+#whyBuyPolicy {
+    margin: 25px 0;
+}
+#tipsToAvoidClaim {
+    margin: 25px 0;
+}
+.tipsToAvoidClaim-grid {
+    display: grid;
+    grid-template-columns: 30% 68%;
+    gap: 1%;
+    align-items: start;
+}
+.quickTips-cards {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 15px;
+}
+.quickTips-card {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 254px;
+    min-height: 320px;
+}
+.quickTips-card4 {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 254px;
+    min-height: 210px;
+}
+.quickTips-card5 {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 518px;
+    min-height: 210px;
+}
+#commonExclusion {
+    margin: 25px 0;
+}
+.commonExclusion-flexS {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin: 25px 0;
+}
+.commonInclusion-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    gap: 10px;
+}
+.commonInclusion-card {
+    max-width: 375px;
+    min-height: 270px;
+    padding: 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+}
+#documentReqd {
+    margin: 25px 0;
+}
+#howToSaveTax {
+    margin: 25px 0;
+}
+.howToSaveTax-grid {
+    display: grid;
+    grid-template-columns: 35% 63%;
+    align-items: start;
+    gap: 2%;
+    margin: 15px 0 10px 0;
+}
+.howToSaveTax-grid img {
+    width: 100%;
+    height: 82%;
+}
+#howCanYouPayLIP {
+    margin: 25px 0;
+}
+.howCanYouPayLIP-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 15px 0;
+    gap: 15px;
+}
+.howCanYouPayLIP-card {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 275px;
+    min-height: 200px;
+}
+#howWillFamilyReceive {
+    margin: 25px 0;
+}
+.howWillFamilyReceive-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+    margin: 10px 0;
+}
+.howWillFamilyReceive-grid img {
+    margin: 0 auto;
+}
+#whichLIPSuitsYou {
+    margin: 25px 0;
+}
+.whichLIPSuitsYou-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 15px 0;
+    gap: 15px;
+}
+.whichLIPSuitsYou-card {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 370px;
+    min-height: 253px;
+}
+#LIPTerms {
+    margin: 25px 0;
+}
+.LIPTerms-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+}
+.LIPTerms-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 370px;
+    min-height: 250px;
+}
+.f17 {
+    font-size: 17px !important;
+}
+.ptb5 {
+    padding: 5px 0;
+}
+.textCenter {
+    text-align: center;
+}
+.redBtn::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 4s ease-in-out infinite;
+}
+@media only screen and (max-width: 480px) {
+    #insuranceplans,
+    #whoCanBuyLIP,
+    #whyBuyPolicy {
+        background-color: #f5f5f5;
+        margin: 15px 0;
+    }
+    .fullBg {
+        background-color: #fff0;
+    }
+    .headGrid,
+    .whyChoose-grid {
+        grid-template-columns: 100% !important;
+    }
+    .safeguardtabs {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .safeguardtabs li.current {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .safeguardtabs li {
+        padding: 10px;
+    }
+    .safeguard-gradient {
+        padding: 40px 0 6%;
+    }
+    .safeguardtab-content {
+        padding: 10px 0;
+    }
+    .safeguard-cards {
+        overflow: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        overflow-y: hidden;
+        gap: 15px;
+    }
+    .safeguard-cards::-webkit-scrollbar {
+        display: none;
+    }
+    .safeguard-card {
+        max-width: 325px;
+        padding: 20px;
+    }
+    .safeguard-card-term {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1%;
+    }
+    .safeguard-card-term img {
+        width: 75%;
+        height: auto;
+    }
+    .safeguard-list {
+        padding: 10px 0 15px 20px;
+        text-wrap: wrap;
+    }
+    .safeguard-pay .amt,
+    .safeguard-get .amt {
+        font-size: 26px;
+    }
+    .safeguard-payget {
+        justify-content: space-between;
+    }
+    .safeguard-btns {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .benefitsOfLIP-grid {
+        grid-template-columns: 100%;
+    }
+    .howToChooseBestLIC-cards {
+        row-gap: 10px;
+    }
+    .howToChooseBestLIC-card {
+        max-width: 100%;
+        min-height: auto;
+    }
+    .understandingLifeInsuranceCA-grid {
+        grid-template-columns: 100%;
+    }
+    .insurancePlans-table {
+        overflow-x: auto;
+    }
+    .whyBuyPolicy-grid {
+        grid-template-columns: 100%;
+    }
+    .tipsToAvoidClaim-grid {
+        grid-template-columns: 100%;
+    }
+    .tipsToAvoidClaim-grid > div img {
+        margin: 0 auto;
+    }
+    .quickTips-card,
+    .quickTips-card4 {
+        max-width: 100%;
+        min-height: auto;
+    }
+    .howToSaveTax-grid {
+        grid-template-columns: 100%;
+    }
+    .howCanYouPayLIP-cards {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .howCanYouPayLIP-card,
+    .LIPTerms-card {
+        max-width: 100%;
+        min-height: auto;
+    }
+    .howWillFamilyReceive-grid {
+        grid-template-columns: 100%;
+    }
+    .whichLIPSuitsYou-cards {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .p10 {
+        padding: 10px !important;
+    }
+}
+@keyframes shiny-btn1 {
+    0% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0;
+    }
+    80% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0.5;
+    }
+    81% {
+        -webkit-transform: scale(4) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(50) rotate(45deg);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes shiny-btn1 {
+    0% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0;
+    }
+    80% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0.5;
+    }
+    81% {
+        -webkit-transform: scale(4) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(50) rotate(45deg);
+        opacity: 0;
+    }
+}
+#tableofContent {
+    margin: 25px 0;
+    z-index: 0 !important;
+}
+.safeguard-card hr {
+    margin: 10px 0;
+}
+.safeguard-flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.safeguard-flx button {
+    padding: 0 !important;
+}
+.onlineTag {
+    font-size: 10px;
+    color: #ed1c24;
+    border-radius: 2px;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: #fde7e8;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+.safeguard-get {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0.3px;
+    margin: 20px auto;
+}
+.safeguard-get strong {
+    font-size: 30px;
+    font-weight: 600;
+}
+.red {
+    color: #c41425;
+}
+.mh-second {
+    min-height: 330px !important;
+}
+.mh-third {
+    min-height: 406px !important;
+}
+.mh-savings1 {
+    min-height: 462px !important;
+}
+.mh-savings2 {
+    min-height: 482px !important;
+}
+.mh-savings3 {
+    min-height: 300px !important;
+}
+.mh-savings4 {
+    min-height: 345px !important;
+}
+.safeguard-pay p sup {
+    font-size: 10px;
+}
+.flexPayGet {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media only screen and (max-width: 480px) {
+    .mh-second,
+    .mh-third,
+    .mh-savings1,
+    .mh-savings2,
+    .mh-savings3,
+    .mh-savings4 {
+        min-height: 100% !important;
+    }
+}
+.howToChooseBestLIC-cards {
+    gap: 15px;
+}
+.space-term {
+    padding-top: 10px;
+}
+.space-plan-custom {
+    padding: 0 27px 10px;
+}
+sup {
+    padding-right: 5px;
+}
+.amount {
+    font-size: 30px;
+}
+strong {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+@media screen and (max-width: 1366px) {
+    .howToChooseBestLIC-card {
+        min-height: 431px;
+    }
+    .howz .pagingInfo-facslick {
+        right: 22% !important;
+    }
+    .safeguardtabs li.current {
+        padding: 12px 28px !important;
+    }
+    .whoCanBuyLIP-card {
+        max-width: 310px;
+        min-height: 335px;
+    }
+    .quickTips-card4 {
+        min-height: 334px;
+    }
+    .quickTips-card {
+        min-height: 333px;
+    }
+    .commonInclusion-card {
+        max-width: 318px;
+        min-height: 330px;
+    }
+    .LIPTerms-card {
+        max-width: 316px;
+    }
+    .mh-third {
+        min-height: 472px !important;
+    }
+    .mh-savings3 {
+        min-height: 333px !important;
+    }
+    .flexPayGet {
+        align-items: start !important;
+    }
+    .safeguard-card {
+        min-height: 521px !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .howToChooseBestLIC-card {
+        min-height: 304px !important;
+        max-width: 90% !important;
+        margin: 0 15px !important;
+    }
+    .howToChooseBestLIC-cards {
+        justify-content: center;
+    }
+    .LIPTerms-card {
+        max-width: unset;
+    }
+    .whoCanBuyLIP-cards,
+    .commonInclusion-cards,
+    .LIPTerms-cards {
+        justify-content: center;
+    }
+    .safeguardtabs {
+        overflow: auto;
+        flex-wrap: unset;scrollbar-width: none;
+        justify-content: unset;
+    }
+    .safeguard-card {
+        width: 100%;
+        max-width: unset;
+    }
+    .safeguard-cards {
+        white-space: unset;
+    }
+    .onlineTag {
+        margin: -10px 0;
+    }
+    .safeguardtabs li.current,
+    .safeguardtabs li {
+        padding: 10px 10px !important;
+        white-space: nowrap;
+    }
+    .flexPayGet {
+        align-items: start;
+    }
+}
+.newsave {
+    margin-top: -59px !important;
+}
+.newplan {
+    margin-top: -29px !important;
+}
+.howz {
+    z-index: 1 !important;
+}
+.factorsslick button.slick-next {
+    bottom: -36px !important;
+}
+.factorsslick button.slick-prev {
+    bottom: -36px !important;
+}
+.howz .pagingInfo-facslick {
+    bottom: -8% !important;
+    /* right: 26% !important; */
+}
+@media screen and (max-width: 1440px) {
+    .howz .pagingInfo-facslick {
+        right: 17% !important;
+    }
+}
+
+/* new css for offline product cards css */
+
+
+
+.offline-new{margin:45px 0 0 0 !important;}
+.list-none li{list-style:none !important}
+.tooltiptext{display:none !important}
+.offlin-card-height li{max-height:unset !important}
+.offlin-card-height li:before{top:10px !important}
+.offlin-card-height,.newgsp {background:white !important;}
+.bor{background:white !important; margin-bottom:0 !important}
+.op-height{height:60% !important}
+
+@media screen and (max-width: 1366px) {
+    .howToChooseBestLIC-card {
+        min-height: 456px; margin:0 15px 0 0!important
+    }
+    .howz .pagingInfo-facslick {
+        right: 22% !important;bottom:-7% !important
+    }
+    .d-block{padding-left:unset !important;display:unset !important;}
+}
+
+.spacing-tab-1 .op2:before {
+    top: 12px !important;
+}
+/* .spacing-tab-1 .onlinegsp li {
+   
+    padding: 44px 27px 44px 40px;
+} */
+
+.spacing-tab-1 .op3:before {
+    top: 59px;
+}
+.spacing-tab-1 .op4:before {
+    top: 102px;
+}
+.spacing-tab-1 .op5:before {
+    bottom: 266px;
+    top: initial;
+}
+.height-acc{height:93% !important}
+/* -----------------------------tab-2 */
+
+.spacing-tab-2 .op-height {
+    height: 95% !important;}
+    .spacing-tab-2 .op2:before {
+        top: 13px;
+    }
+    .spacing-tab-2 .op3:before {
+        top: 58px;
+    }
+    .spacing-tab-2 .op4:before {
+        top: 105px;
+    }
+    .spacing-tab-2 .op5:before {
+        bottom: 349px;
+        top: initial;
+    }
+    .spacing-tab-2 .op6:before {
+        bottom: 301px;
+        top: initial;
+    }
+    .spacing-tab-2 .op7:before {
+        /* bottom: 48px; */
+        /* top: initial; */
+        bottom: initial !important;
+        top: 241px !important;
+    }
+    .spacing-tab-2 .op8:before {
+      
+        top: 291px !important;
+    }
+    .spacing-tab-2 .op9:before {
+      
+        top: 332px !important;
+    }
+    .spacing-tab-2 .op10:before {
+      
+        top: 377px !important;
+    }
+    .spacing-tab-2 .op11:before {
+      
+        top: 433px !important;
+    }
+    .spacing-tab-2 .op12:before {
+      
+        top: 486px !important;
+    }
+
+    /* ---------tab-3 */
+    /* .spacing-tab-3 .onlinegsp li {
+        
+        padding: 21px 27px 21px 40px !important;
+    } */
+
+    .spacing-tab-3 .op2:before {
+        top: 18px;
+    }
+    .spacing-tab-3 .op3:before {
+        top: 58px;
+    }
+    .spacing-tab-3 .op4:before {
+        top: 104px;
+    }
+    .spacing-tab-3 .op5:before {
+        bottom: 208px;
+        top: initial;
+    }
+
+    .spacing-tab-3 .op6:before {
+        bottom: 163px;
+        top: initial;
+    }
+    .spacing-tab-3 .op7:before {
+        bottom: 119px;
+        top: initial;
+    }
+
+    /* --------tab-4 */
+
+    .spacing-tab-4 .onlinegsp li {padding: 12px 27px 12px 40px !important;}
+    .spacing-tab-4 .op3:before {
+        top: 57px;
+    }
+    .spacing-tab-4 .op2:before {
+        top: 13px;
+    }
+
+   .kotak-red{border: 1px solid #ed3237;
+    padding: 10px 40px;font-size: 16px;
+    font-weight: 500;display:inline-block;
+    border-radius: 35px;
+    margin-top: 5px;
+    color: #ed3237;}
+    .kotak-red:hover{background-color: #ed3237 !important;
+        color: #fff !important;}
+
+        .spacing-tab-4 .accelcard{max-height: 376px;
+            margin-left: 24px !important;
+            min-height: 382px;
+            transition: 0.3s ease-in-out;}
+
+
+            .spacing-tab-1 .accelcard {
+                max-height: 376px;
+    margin-left: 24px !important;
+    min-height: 438px;
+    transition: 0.3s ease-in-out;
+            }
+
+            .spacing-tab-3 .accelcard { max-height: 376px;
+    margin-left: 24px !important;
+    min-height: 382px;
+    transition: 0.3s ease-in-out;}
+    .spacing-tab-2 .accelcard { 
+        margin-left: 24px !important;}
+        .d-block{padding-left:40px;display:unset !important;}
+
+
+        @media screen and (max-width:480px) {
+        .newplan {
+            margin-top: 0px !important;
+        }
+    }

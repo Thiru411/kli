@@ -1,0 +1,173 @@
+/* Tiny Carousel */
+#slider1 {
+    height: 1%;
+    margin: 30px 0 0;
+    overflow: hidden;
+    position: relative;
+    padding: 0 50px 10px;
+}
+
+#slider1 .viewport {
+    height: 125px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider1 .buttons {
+    background: #C01313;
+    border-radius: 35px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#slider1 .next {
+    right: 0;
+    left: auto;
+    top: 50%;
+}
+
+#slider1 .buttons:hover {
+    color: #C01313;
+    background: #fff;
+}
+
+#slider1 .disable {
+    visibility: hidden;
+}
+
+#slider1 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+}
+
+#slider1 .overview li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 1px;
+    height: 121px;
+    border: 1px solid #dcdcdc;
+    width: 236px;
+ }
+
+
+/* Slider 5 - Vertical Scroll */
+
+#slider5 { height: 1%; overflow:hidden; padding:0; width: 30%; margin-left:-110px;background-color: transparent;}
+#slider5 .viewport { width: 95%; min-height: 465px; overflow: hidden; position: relative;top:-20px;left:3px;box-shadow: 0 0 5px 2px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);background-color: white;}
+#slider5 .buttons {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 30px;
+    display: block;
+    margin: 0 0 5px 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:45%;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #999;
+    z-index: 999;
+}
+#slider5 .next {
+    margin: 5px 0 0;
+    transform: rotate(180deg);
+    position: relative;
+    top:-40px;
+}
+#slider5 .buttons:hover{
+    color: #666;
+    background: #ccc;
+    border: 1px solid #666;
+}
+#slider5 .overview {
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: -20px;
+    top: 0;
+}
+#slider5 .overview li{
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    min-height:10%;
+    /*border: 1px solid #dcdcdc;*/
+    width: 100%;
+    text-align:left;
+}
+
+/* custom */
+#slider5 .overview li img{max-width:30%;float: left;clear:none;}
+#slider5 .overview li div.w3-bar-item{width:60%;float: right;clear:none;padding:8px;font-size: 18px!important;}
+#slider5 .prev, #slider5 .next {font-size: 20px!important;}
+
+@media (min-width:1600px) and (max-width:1919px){
+    #slider5 {width: 33%; margin-left:-110px;}
+    #slider5 .overview li{min-height:7%;}
+    #slider5 .prev, #slider5 .next {font-size: 18px!important;}
+}
+
+@media (min-width:1366px) and (max-width:1599px){
+    .life-advisor-image{max-height:390px;margin:2.75em 0 0 60px;}
+    #slider5 {width: 33%; margin-left:-50px;}
+    #slider5 .viewport { width: 96%;top:-20px;min-height: 450px;}
+    #slider5 .overview li{min-height:7%;}
+    #slider5 .overview li div.w3-bar-item{width:70%;padding:8px;font-size: 16px!important;}
+    #slider5 .prev {top:0px;}
+    #slider5 .next {top:-40px;}
+    #slider5 .prev, #slider5 .next {font-size: 18px!important;}
+}
+
+@media (min-width:1280px) and (max-width:1365px){
+    .life-advisor-image{max-height:390px;margin:2.75em 0 0 20px;}
+    #slider5 {width: 36%; margin-left:-50px;}
+    #slider5 .viewport {min-height: 450px;}
+    #slider5 .overview li{min-height:6%;}
+    #slider5 .overview li div.w3-bar-item{width:70%;padding:8px;font-size: 16px!important;}
+    #slider5 .prev, #slider5 .next {font-size: 16px!important;}
+}
+
+@media (min-width:1152px) and (max-width:1279px){
+    .life-advisor-image{max-height:380px;margin:3em 0 0 40px;}
+    #slider5 {width: 34%; margin-left:-80px;}
+    #slider5 .viewport { width: 96%;top:-20px;min-height: 450px;}
+    #slider5 .overview li{min-height:8%;}
+    #slider5 .overview li div.w3-bar-item{width:70%;padding:8px;font-size: 16px!important;}
+    #slider5 .prev, #slider5 .next {font-size: 16px!important;}
+}
+
+@media (min-width:1024px) and (max-width:1151px){
+    .life-advisor-image{max-height:380px;margin:3em 0 0 50px;}
+    #slider5 {width: 34%; margin-left:-70px;}
+    #slider5 .viewport { width: 98%;top:-20px;min-height: 450px;}
+    #slider5 .overview li{min-height:7%;}
+    #slider5 .overview li div.w3-bar-item{width:70%;padding:8px;font-size: 16px!important;}
+    #slider5 .prev, #slider5 .next {font-size: 16px!important;}
+}
+
+@media (max-width:992px) and (min-width:601px){
+    .life-advisor-image{max-width:90%;margin:3em 0 0 20px;}
+    #slider5 {width: 37%; margin-left:-50px;}
+    #slider5 .viewport { width: 98%;top:-20px;min-height: 330px;}
+    #slider5 .overview li{min-height:8%;}
+    #slider5 .overview li div.w3-bar-item{width:70%;padding:8px;font-size: 13px!important;}
+    #slider5 .prev, #slider5 .next {font-size: 14px!important;}
+}

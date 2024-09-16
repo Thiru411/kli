@@ -1,0 +1,64 @@
+
+
+
+    public function get_articles_for_ulip($storylug){
+	return  $this->db->select('kct.entry_id as entry_id, kct.entry_date as entry_date, kct.edit_date as edit_date, kct.title as article_title, kct.url_title, kcd.field_id_359 as short_description, kcd.field_id_360 as description, kcd.field_id_361 as article_image, kcd.field_id_364 as viewed_counts, kcd.field_id_362 as posted_date, kcd.field_id_365 as button_text_1,kcd.field_id_366 as button_text_url1,kcd.field_id_367 as button_text_2,kcd.field_id_368 as button_text_url2,kcd.field_id_369 as summary,kcd.field_id_370 as reviewwritten ')
+	->from('kotak_channel_titles as kct')
+		->join('kotak_channel_data as kcd', 'kcd.entry_id = kct.entry_id') 					
+		->join('kotak_channel_titles as ktct', 'ktct.entry_id = kcd.entry_id')
+		->join('kotak_channel_data as ktcd', 'ktcd.entry_id = ktct.entry_id')
+		->where(array('kct.channel_id'	=>	ULIP_PLANS_CHANNEL_ID, 
+					  'kct.site_id'		=>	SITE_ID,
+					  'kct.url_title'	=>	$storylug,
+					  'kct.status'		=>	'open'))
+		->get()->row();	
+		
+}
+
+
+
+public function update_view_count_ulip($entry_id, $viewed_count){
+		$this->db->update('kotak_channel_data', array('field_id_364' => $viewed_count), array('entry_id' =>	$entry_id, 'channel_id' => ULIP_PLANS_CHANNEL_ID));
+		return $this->db->affected_rows();
+	}
+	
+	
+	
+	 public function get_articles_for_term_insurance($storylug){
+	return  $this->db->select('kct.entry_id as entry_id, kct.entry_date as entry_date, kct.edit_date as edit_date, kct.title as article_title, kct.url_title, kcd.field_id_371 as short_description, kcd.field_id_372 as description, kcd.field_id_373 as article_image, kcd.field_id_376 as viewed_counts, kcd.field_id_374 as posted_date, kcd.field_id_378 as button_text_1,kcd.field_id_380 as button_text_url1,kcd.field_id_382 as button_text_2,kcd.field_id_383 as button_text_url2,kcd.field_id_384 as summary,kcd.field_id_386 as reviewwritten ')
+	->from('kotak_channel_titles as kct')
+		->join('kotak_channel_data as kcd', 'kcd.entry_id = kct.entry_id') 					
+		->join('kotak_channel_titles as ktct', 'ktct.entry_id = kcd.entry_id')
+		->join('kotak_channel_data as ktcd', 'ktcd.entry_id = ktct.entry_id')
+		->where(array('kct.channel_id'	=>	TERM_PLANS_CHANNEL_ID, 
+					  'kct.site_id'		=>	SITE_ID,
+					  'kct.url_title'	=>	$storylug,
+					  'kct.status'		=>	'open'))
+		->get()->row();	
+		
+}
+
+public function update_view_count_term_insurance($entry_id, $viewed_count){
+		$this->db->update('kotak_channel_data', array('field_id_376' => $viewed_count), array('entry_id' =>	$entry_id, 'channel_id' => TERM_PLANS_CHANNEL_ID));
+		return $this->db->affected_rows();
+	}
+	
+	
+	 public function get_articles_for_savings_plan($storylug){
+	return  $this->db->select('kct.entry_id as entry_id, kct.entry_date as entry_date, kct.edit_date as edit_date, kct.title as article_title, kct.url_title, kcd.field_id_377 as short_description, kcd.field_id_379 as description, kcd.field_id_385 as article_image, kcd.field_id_388 as viewed_counts, kcd.field_id_381 as posted_date, kcd.field_id_389 as button_text_1,kcd.field_id_390 as button_text_url1,kcd.field_id_391 as button_text_2,kcd.field_id_392 as button_text_url2,kcd.field_id_393 as summary,kcd.field_id_394 as reviewwritten ')
+	->from('kotak_channel_titles as kct')
+		->join('kotak_channel_data as kcd', 'kcd.entry_id = kct.entry_id') 					
+		->join('kotak_channel_titles as ktct', 'ktct.entry_id = kcd.entry_id')
+		->join('kotak_channel_data as ktcd', 'ktcd.entry_id = ktct.entry_id')
+		->where(array('kct.channel_id'	=>	SAVINGS_PLAN_CHANNEL_ID, 
+					  'kct.site_id'		=>	SITE_ID,
+					  'kct.url_title'	=>	$storylug,
+					  'kct.status'		=>	'open'))
+		->get()->row();	
+		
+}
+
+public function update_view_count_savings_plan($entry_id, $viewed_count){
+		$this->db->update('kotak_channel_data', array('field_id_388' => $viewed_count), array('entry_id' =>	$entry_id, 'channel_id' => SAVINGS_PLAN_CHANNEL_ID));
+		return $this->db->affected_rows();
+	}

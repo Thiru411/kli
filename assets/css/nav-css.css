@@ -1,0 +1,175 @@
+    /* Your existing CSS styles */
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #filePath {
+        justify-content: center;
+        display: flex;
+        margin-top: 27px;
+    }
+    
+    #uploadFormContainer {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    #fileInput {
+        display: none;
+    }
+    
+    .upload {
+        font-size: 13px !important;
+        /* padding: 4px 0; */
+        vertical-align: middle !important;
+        padding: 5px 14px !important;
+        background-color: #ED3237;
+        color: #fff;
+    }
+    
+    #uploadButton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    #uploadButton:hover {
+        background-color: #45a049;
+    }
+    
+    .navWrapDetails {
+        width: 80%;
+        float: right;
+        background: #fff;
+        padding: 0px 40px;
+        box-sizing: border-box;
+        margin: 25px 116px 159px 152px;
+        position: relative;
+    }
+    
+    .loader {
+        border: 8px solid #f3f3f3;
+        border-top: 8px solid #db3434;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        /* Half of the loader height */
+        margin-left: -25px;
+        /* Half of the loader width */
+        z-index: 9999;
+        /* Ensure the loader is above other content */
+        display: none;
+        /* Initially hide the loader */
+    }
+    
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .fontawesomesvg {
+        width: 1em;
+        height: 1em;
+        vertical-align: -.125em;
+        color: red;
+    }
+    /* Styling for header */
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* Styling for footer */
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    /* Styling for main content */
+    
+    main {
+        padding: 20px;
+        margin-bottom: 60px;
+        /* Adjusted to accommodate the footer */
+        text-align: center;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    table tr th,
+    td {
+        border: 1px solid;
+        height: 35px;
+        text-align: center;
+    }
+    
+    #logout-link {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .header-left,
+    .header-center,
+    .header-right {
+        padding: 5px 10px;
+    }
+    
+    #datePicker {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    
+    #textfor-file {
+        color: red;
+    }
+    
+    .footer-text {
+        text-align: end;
+        margin-right: 20px;
+    }
+    
+    .header-logo {
+        background-image: url(assets/images/header-sprite.webp);
+        width: 252px;
+        height: 54px;
+        display: block;
+    }

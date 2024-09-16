@@ -1,0 +1,719 @@
+
+section, footer{top:0;}
+#sip_calculator {
+  background-color: #FFF;
+  padding-bottom: 4rem;
+    margin-top: 10rem;
+}
+
+#sipCalc {
+  padding: 15px 0;
+}
+
+#sipCalc2 {
+  /* background-color: #f8f8f8; */
+  padding: 15px 0;
+}
+
+.headSection {
+  margin: 25px 0;
+}
+
+.sipHeadTitle {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  margin: 20px 0 5px 0;
+  font-family: 'Lato-Regular';
+  padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.sipTitle {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+        font-family: 'Lato-Regular';
+}
+.loadmores{text-align: center;} 
+
+.sipDesc {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+}
+
+.sipHelp {
+  padding-left: 15px;
+  margin: 5px 0;
+}
+
+.sipHelp h3 {
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 0 5px;
+  letter-spacing: 0.3px;
+}
+
+.sipHelp h3 span {
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  padding-right: 5px;
+  letter-spacing: 0.3px;
+}
+
+.sipHelp p {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.sipWork h3 {
+  padding: 10px 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 10px 0 5px;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.sipWork h3 span {
+  padding: 10px 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 0 5px;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.sipCard {
+  border-radius: 1.6rem;
+  padding: 2rem 2rem;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+  border: 1px solid #dcdcdc;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 56% 42%;
+  gap: 20px;
+}
+
+.sipWrap {
+  font-size: 28px;
+  font-weight: 500;
+  color: #000;
+}
+
+.sipReturn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.sipReturnCard {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 15px;
+  min-height: 230px;
+  max-width: 360px;
+}
+
+.sipReturnCard:hover {
+  border: 1px solid #004a8f;
+}
+
+.sipReturnCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.sipReturnCard p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  padding-top: 8px;
+}
+
+.sipGraph {
+  text-align: center;
+  /* background-color: #eff6ff; */
+  border-radius: 8px;
+  padding: 20px 20px 5px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.productCard_sidetitle {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  font-family: 'Lato-Regular';
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.productCard_sidedesc {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.productCard_card {
+  /* border: 1px solid #CFCFCF; */
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.productCard_card img {
+  width: 95px;
+  height: 95px;
+}
+
+.productCard_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productCard-readMore {
+  padding: 8px 30px;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  background-color: #ed3237;
+  border-radius: 30px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.productCard-readMore:hover {
+  color: #FFF;
+}
+
+.productCard-readMore::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.productCard-invest {
+  padding: 8px 30px;
+  width: 45%;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  background-color: #ed3237;
+  border-radius: 30px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 0.3px;
+  margin: 25px 0 0;
+}
+
+.productCard-invest:hover {
+  color: #FFF;
+}
+
+.productCard-invest::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.form-range {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.form-range {
+  color: #ed1c24;
+  --thumb-height: 1.125em;
+  --track-height: 1px;
+  --track-color: rgba(0, 0, 0, 0.1);
+  --clip-edges: 0.125em;
+}
+
+/* === range commons === */
+.form-range {
+  position: relative;
+  background: #fff0;
+  overflow: hidden;
+}
+
+.form-range:active {
+  cursor: grabbing;
+}
+
+/* === WebKit specific styles === */
+.form-range,
+.form-range::-webkit-slider-runnable-track,
+.form-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  transition: all ease 100ms;
+  height: var(--thumb-height);
+}
+
+.form-range::-webkit-slider-runnable-track,
+.form-range::-webkit-slider-thumb {
+  position: relative;
+}
+
+.form-range::-webkit-slider-thumb {
+  --thumb-radius: calc(1.125em * 0.5) - 1px;
+  --clip-top: calc((var(--thumb-height) - var(--track-height)) * 0.5 - 0.5px);
+  --clip-bottom: calc(var(--thumb-height) - var(--clip-top));
+  --clip-further: calc(100% + 1px);
+  --box-fill: calc(-100vmax - var(--thumb-width, var(--thumb-height))) 0 0 100vmax #ffbebe;
+
+  width: var(--thumb-width, var(--thumb-height));
+  background: linear-gradient(currentColor 0 0) scroll no-repeat left center / 50% calc(var(--track-height) + 1px);
+  background-color: currentColor;
+  box-shadow: var(--box-fill);
+  border-radius: var(--thumb-width, var(--thumb-height));
+
+  filter: brightness(100%);
+  clip-path: polygon(100% -1px,
+      var(--clip-edges) -1px,
+      0 var(--clip-top),
+      -100vmax var(--clip-top),
+      -100vmax var(--clip-bottom),
+      0 var(--clip-bottom),
+      var(--clip-edges) 100%,
+      var(--clip-further) var(--clip-further));
+}
+
+.form-range:active::-webkit-slider-thumb {
+  filter: brightness(var(--brightness-down));
+  cursor: grabbing;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  background: linear-gradient(var(--track-color) 0 0) scroll no-repeat center / 100% calc(var(--track-height) + 1px);
+}
+
+/*  */
+
+.hide-span {
+  display: none;
+}
+
+.totalValuetxt {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+.investedTxt {
+  color: #000;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.totalValue {
+  font-size: 18px;
+  color: #333;
+  font-weight: 800;
+}
+
+.totalInvestReturns {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
+
+.investMent-section {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.seperator {
+  margin: 1.5rem 0 !important;
+  border-top: 1px dotted #333;
+}
+
+.sipText {
+  font-size: 15px;
+  color: #000;
+}
+
+.totalAmt,
+.investAmt,
+.totalReturns {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.calculatorList {
+  margin: 15px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ulipfnt {
+    font-size: 14px;
+    padding-top: 1rem;
+}
+.calculatorList li {
+  padding: 12px 15px;
+  background-color: #FFF;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.calculatorList .secondCard {
+  margin: 0 20px;
+}
+
+.calculatorList li a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
+.calculatorList li img {
+  width: 60px;
+  height: 60px;
+}
+
+.otherClass {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sipCalc-grid {
+  display: grid;
+  grid-template-columns: 48% 50%;
+  align-items: center;
+  gap: 10px;
+}
+
+.sipCalc-img {
+  text-align: center;
+}
+
+.sipCalc-img img {
+  width: 75%;
+  height: auto;
+}
+
+.w11rem {
+  width: 11rem !important;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sipForm[type=number] {
+  -moz-appearance: textfield;
+}
+
+.fwbold {
+  font-weight: 800;
+}
+
+.otherCalcCard {
+  padding: 20px;
+  border-radius: 1.6rem;
+  border: 1px solid #dcdcdc;
+  background-color: #f7f7f7;
+}
+
+.calculatorList li:hover {
+  border: 1px solid #ed1c24;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+}
+
+.inline-links {
+  color: #004a8f;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:480px) {
+    #sip_calculator {margin-top: 0;}
+  .sipReturn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .sipCard {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 15px;
+  }
+
+  .productCard_card {
+    margin-top: 20px;
+  }
+
+  .sipCalc-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sipCalc-img {
+    text-align: center;
+  }
+
+  .sipCalc-img img {
+    width: 75%;
+    height: auto;
+  }
+
+  .sipCalc-flexMob {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .productCard-invest {
+    width: 100%;
+  }
+
+  .sipGraph {
+    padding: 5px;
+  }
+
+  .investMent-section {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .investAmt,
+  .totalReturns,
+  .totalAmt {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .totalValuetxt {
+    text-align: left;
+  }
+
+  .calculatorList {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .calculatorList li {
+    width: 100%;
+  }
+
+  .calculatorList .secondCard {
+    margin: 0;
+  }
+}
+
+
+/* Below animation */
+@keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+
+
+.distribution-bar.background-color-bar {
+  width: 100%;
+  height: 32px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.distribution-bar.background-color-bar div {
+  transition: width .5s;
+}
+
+.grey {
+  background-color: #b1b1b1;
+  border-radius: 8px 0 0 8px;
+}
+
+.distribution-bar.background-color-bar div {
+  transition: width .5s;
+}
+
+.green {
+  background-color: #148564;
+  border-radius: 0 8px 8px 0;
+}
+ul.reportUL>li .reportBox, ul.reportUL_img>li .reportBox .detail{height: auto !important;}
+@media (min-width: 1280px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px !important;
+}
+}
+@media (min-width: 1366px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1170px !important;
+}
+}
+.sipslick button.slick-next {
+  bottom: -90px;
+}
+
+.sipslick button.slick-prev {
+  bottom: -90px;
+}
+
+.sipslick button.slick-next {
+  background-image: url(../images/btnslicknext.svg)!important;
+  background-size: auto;
+  left: unset;
+  z-index: 1000;
+  right: 30px;
+  top: unset;
+  bottom: -50px;
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 0;
+  margin: 0
+}
+
+.sipslick button.slick-prev {
+  background-image: url(../images/btnslickprev.svg)!important;
+  background-size: auto;
+  left: unset;
+  z-index: 1000;
+  right: 67px;
+  top: unset;
+  bottom: -50px;
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 0;
+  margin: 0
+}
+.pagingInfo-facslick .finished_count {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .32px;
+  line-height: 26px
+}
+.pagingInfo-facslick .total_count {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .32px;
+  line-height: 26px
+}
+
+.pagingInfo-facslick {
+  position: absolute;
+  bottom: 18%;
+  right: 21%;
+}
+

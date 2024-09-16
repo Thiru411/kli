@@ -1,0 +1,6 @@
+.scroll-pane{height:90%;width:100%;outline:0}
+.jspContainer{overflow:hidden;position:relative;}
+.jspPane{position:absolute;}
+.jspVerticalBar{position:absolute;top:0;right:0;width:5px;height:100%;background:0 0}
+.jspCap{display:none}
+.jspTrack{background:0 0;position:relative}

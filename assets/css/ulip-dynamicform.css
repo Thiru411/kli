@@ -1,0 +1,114 @@
+.unit-h1{text-align:unset; margin:0;width:unset}
+
+#ulipnewform{position:unset}
+.ulipdynamicform{margin-left:7rem;margin-top:unset;}
+.formsprite{background-image:url('/assets/images/ulip-plan/imgform.webp') !important;}
+/* .formimg{width: 620px;
+    height: 236px;
+    background-position: -35px -3064px;
+    background-size: 648px;
+    margin-top: 30px;
+    border-radius: 4px;} */
+    /* .position{position:relative}
+    .create{position: absolute;
+        top: 51px;
+        
+        font-size: 22px;
+        font-weight: 800;
+        color: #003366 !important;
+     
+        width: 255px;
+        left: 45px;
+        font-family: 'Roboto-Regular';
+        letter-spacing: 0.33px;}
+        .e-invest-cta{top: 75%;
+            background-color: #ED1C24;
+            color: #FFF;
+            font-size: 21px;
+            font-weight: 700;
+            border-radius: 25px;
+            padding: 5px 15px;
+           
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            overflow: hidden;
+            letter-spacing: 0.3px;
+            gap: 10px;
+            left: 43px;}
+            .in-invest{
+                font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #161616;
+    position: absolute;
+    top: 59%;
+    left: 51px;
+            } */
+            .formimg {
+                width: 620px;
+                height: 236px;
+                background-position: -35px -3064px;
+                background-size: 648px;
+                margin-top: 30px;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px;
+            }
+            
+            .create {
+                font-size: 22px;margin-bottom:0;
+                font-weight: 800;
+                color: #003366 !important;
+                width: 255px;
+                font-family: 'Roboto-Regular';
+                letter-spacing: 0.33px;
+            }
+            
+            .in-invest {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: 0.3px;
+                color: #161616;
+                margin-top: 10px;
+            }
+            
+            .e-invest-cta {
+                background-color: #ED1C24;
+                color: #FFF;
+                font-size: 21px;
+                font-weight: 700;
+                border-radius: 25px;
+                padding: 5px 15px;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                letter-spacing: 0.3px;
+                gap: 10px;
+                margin-top: 14px;
+            }
+            
+            @media (max-width: 1366px) {
+            .formimg {
+                width: 536px;
+                height: 236px;
+                background-position: -84px -3064px;}
+            }
+
+            @media (max-width: 480px){
+            .formimg {
+                width: 378px;
+        height: 180px;
+        background-position: -29px -3136px;
+        background-size: 479px;}
+                .create {
+                    font-size: 19px;}
+            }
+
+           

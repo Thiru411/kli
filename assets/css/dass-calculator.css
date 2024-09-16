@@ -1,0 +1,282 @@
+
+
+.inline-links {
+  color: #004a8f;
+  text-decoration: underline;
+}
+
+/*  */
+
+.headSection {
+  margin: 25px 0;
+}
+
+.headSection .sectionTitle {
+  font-size: 4.2rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #000;
+  width: 100% !important;
+  margin: 12px 0 !important;font-family: 'Lato-Regular';
+  text-align: left;
+}
+
+.dassSection {
+  margin: 25px 0;
+}
+
+.question-group {
+  display: grid;
+  grid-template-columns: 57% 42%;
+  align-items: center;
+  gap: 2%;
+  margin: 12px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.radio-group {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dass-invest {
+  border: none;
+  padding-top: 2px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: #ed3237;
+  border-radius: 8px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: .3px;
+}
+
+.dass-investnext {
+  border: none;
+  padding-top: 2px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: #ed3237;
+  border-radius: 8px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: .3px;
+  margin: 25px 0 0;
+}
+
+.dass-investPrev {
+  border: 1px solid #ed3237;
+  padding-top: 2px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ed3237;
+  background-color: #FFF;
+  border-radius: 8px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: .3px;
+  margin: 25px 0 0;
+}
+
+.resultText {
+  color: #003366;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin-bottom: 5px;
+}
+
+#result-container {
+  background-color: #EBF6FF;
+  border: 1px solid #C7D6E3;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 10px 0 40px;
+}
+
+.resultFlex p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.resultFlex p span {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.resultFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 10px;
+}
+
+.resultCards {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.resultCards h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+#dass-form .dass-invest {
+  text-align: center;
+  display: flex;
+  margin: 20px 10px 10px;
+}
+
+.dassTitle {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: .3px;font-family: 'Lato-Regular';
+}
+
+.dassDesc {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: .3px;
+}
+
+.dassList {
+  margin-left: 38px;
+}
+
+.dassList li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: .3px;list-style: disc;
+  padding: 8px 0;
+}
+
+.dassTable {
+  margin: 15px 0;
+}
+
+.dassTable table tr th {
+  color: #FFF;
+  background-color: #003366 !important;
+  padding: 15px 20px;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+.dassTable table tr td {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.error-message {
+  color: red;
+}
+
+@media only screen and (max-width:480px) {
+  .question-group {
+    grid-template-columns: 100%;
+    gap: 0;
+  }
+
+  .radio-group {
+    margin: 10px 0 !important;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .radio-group label {
+    width: 133px;
+  }
+
+  .resultFlex {
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 19px;
+  }
+
+  .dassTable {
+    overflow-x: scroll;
+  }
+
+  .fs40 {
+    font-size: 38px !important;
+  }
+    .question{font-size: 20px;}
+    .radio-group label{text-align: center;}
+}
+
+
+
+.radio-group {
+  margin: 10px;
+}
+
+.radio-group input[type="radio"] {
+  opacity: 0;
+  width: 0;
+}
+
+.radio-group label {
+  display: inline-block;
+  background-color: #fff;
+  padding: 6px 15px;
+  font-size: 15px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.radio-group label:hover {
+  background-color: #EFF8FF;
+}
+
+.radio-group input[type="radio"]:focus+label {
+  border: 1px solid #333;
+}
+
+.radio-group input[type="radio"]:checked+label {
+  background-color: #EFF8FF;
+  border-color: 1px solid #003366;
+}
+.term-blog{padding: 50px 0;}

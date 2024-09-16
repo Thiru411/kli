@@ -1,0 +1,792 @@
+
+.hraCard {
+  /* padding: 20px 0 20px 20px; */
+  background-color: #fff;
+  max-width: 100%;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+  border-radius: 6px;
+}
+
+.hraCard-grid {
+  display: grid;
+  grid-template-columns: 22% 53% 22%;
+  align-items: center;
+  gap: 17px;
+}
+
+.hra-fields {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.hra-fields .formGroup {
+  width: 50%;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.hraCard-img {
+  text-align: center;
+}
+
+.formLabel label {
+  margin-bottom: 12px !important;
+  color: #000 !important;
+}
+
+.formLabel .form-control {
+  padding-left: 5px !important;
+}
+
+
+.productCard_sidetitle {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  font-family: Lato;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.productCard_sidedesc {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.productCard_card img {
+  width: 95px;
+  height: 95px;
+}
+
+.productCard_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productCard-readMore {
+  padding: 8px 30px;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  background-color: #ed3237;
+  border-radius: 30px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.productCard-readMore:hover {
+  color: #FFF;
+}
+
+.productCard-readMore::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.calculatorList ul {
+  margin: 15px 0;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+  border-radius: 6px;
+}
+
+.calculatorList ul li {
+  padding: 12px 15px;
+  /* border: 1px solid #747474; */
+  background-color: #FFF;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+}
+
+.calculatorList ul li:first-child {
+  border-radius: 6px 6px 0 0;
+}
+
+.calculatorList ul li:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.calculatorList ul li a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.calculatorList ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #Ed1c24;
+  transition: width .2s ease-in;
+}
+
+.calculatorList ul li a:hover::after {
+  width: 100%;
+}
+
+.calculatorList ul li span::before {
+  content: '\25BA';
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.otherClass {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #333 !important;
+}
+
+.category {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+
+.calculator-submit {
+  text-align: left;
+  padding: 1rem 1rem;
+  color: #fff;
+  font-family: Roboto-Semibold;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  background: #ed1c24;
+  border: 1px solid #ed1c24;
+  border-radius: 0.8rem;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: auto;
+  height: 45px;
+  margin: 15px auto 0;
+}
+
+.metroCity {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  gap: 5px;
+}
+
+.metroCity input[type=radio] {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.formGroup {
+  margin-bottom: 3rem;
+}
+
+.bmi-value .message,
+.category .message {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.category {
+  margin-top: 10px;
+}
+
+.formLabel input::-webkit-outer-spin-button,
+.formLabel input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.formLabel input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/*  */
+#whatIsHra,
+#hraImportant,
+#hraCalculation,
+#hraTaxExemption,
+#hraRules,
+#documentReqd {
+  margin: 25px 0;
+}
+
+.whatIsHra-grid {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  align-items: center;
+  gap: 15px;
+}
+
+.hraImportant-grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  align-items: center;
+  gap: 15px;
+}
+
+.whatIsHra-title,
+.hraImportant-title,
+.hraCalculation-title,
+.hraTaxExemption-title,
+.hraRules-title,
+.documentReqd-title,
+.conditionForHRA-title {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+    font-family: 'Lato-Bold';
+}
+
+.hraDesc,
+.whatIsHra-desc,
+.hraImportant-desc,
+.hraCalculation-desc,
+.hraTaxExemption-desc,
+.hraRules-desc,
+.documentReqd-desc,
+.conditionForHRA-desc {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+}
+
+.hraCalculation-innerTitle,
+.hraTaxExemption-innerTitle,
+.hraRules-innerTitle,
+.documentReqd-innerTitle,
+.conditionForHRA-innerTitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+  padding: 10px 0;
+}
+
+.hraCalculation-subTile {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+  padding: 10px 0;
+}
+
+.hraCalculation-subDesc,
+.hraRules-subDesc,
+.hraTaxExemption-subDesc,
+.documentReqd-subDesc,
+.conditionForHRA-subDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+}
+
+.hraCalculation-list,
+.hraTaxExemption-list,
+.hraRules-list,
+.conditionForHRA-list,
+.documentReqd-list {
+  padding-left: 15px;
+}
+
+.hraCalculation-ordered,
+.hraTaxExemption-ordered,
+.hraRules-ordered,
+.conditionForHRA-ordered {
+  padding-left: 4%;
+}
+
+.hraCalculation-flex,
+.hraRules-flex,
+.documentReqd-flex,
+.conditionForHRA-flex {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+}
+
+.hraCalculation-flex img {
+  align-self: flex-start;
+}
+
+.hraCalculation-ordered li,
+.hraTaxExemption-ordered li,
+.hraRules-ordered li,
+.conditionForHRA-ordered li {
+  list-style-type: decimal !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000 !important;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+}
+
+.hraTaxExemption-ordered {
+  column-count: 2;
+
+}
+
+/* .documentReqd-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+} */
+
+.codeBox {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+.hraTaxExemption-value {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.hraTaxExemption-desc {
+  padding: 5px 0;
+}
+
+
+.resultBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFF3F3;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 395px;
+}
+
+.resultText {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0.3px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resultText2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0.3px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resultText span {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #000;
+  background: #FFFFFF;
+  border: 1px solid #AB2020;
+  border-radius: 28px;
+  padding: 6px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.resultText2 span {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #000;
+  background: #FFFFFF;
+  border: 1px solid #003366;
+  border-radius: 28px;
+  padding: 6px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.inline-links {
+  color: #0066cb;
+}
+
+.healthRisk-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.exemptedHRA,
+.taxableHRA {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
+
+.exemptedHRA span,
+.taxableHRA span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+
+.hra-fields .error {
+  padding-left: 0 !important;
+}
+
+
+
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.hra-fields .formGroup input[type='number']:focus {
+  border: 1px solid #0066cb;
+}
+
+.hraTable th {
+  background-color: #003366 !important;
+  color: #FFF;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.hraTable tr td {
+  color: #000 !important;
+  font-size: 14px;
+}
+
+
+.whatIsHra-img {
+  text-align: left;
+}
+
+.hraImportant-img {
+  text-align: center;
+}
+
+.hraImportant-img img {
+  width: 75%;
+  height: auto;
+}
+
+.whatIsHra-img img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* ToolTip */
+.hraTooltip {
+  position: relative;
+  background-color: #D2D2D2;
+  color: #FFF;
+  border-radius: 50%;
+  padding: 0px 5px;
+  display: inline-block;
+  font-size: 9px;
+}
+
+.hraTooltip:after,
+.hraTooltip:before {
+  opacity: 0;
+  pointer-events: none;
+  bottom: 100%;
+  left: 50%;
+  position: absolute;
+  z-index: 10;
+  transform: translate(-50%, 10px);
+  transform-origin: top;
+  transition: all 0.18s ease-out 0.18s;
+}
+
+.hraTooltip:after {
+  background-color: #003366;
+  box-shadow: 0 0 3px #003366;
+  content: attr(data-tooltip);
+  padding: 10px;
+  white-space: nowrap;
+  margin-bottom: 11px;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.hraTooltip:before {
+  width: 0;
+  height: 0;
+  content: "";
+  margin-bottom: 6px;
+}
+
+.hraTooltip:hover:before,
+.hraTooltip:hover:after {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
+[data-tooltip-pos="right"]:before {
+  border-top: 6px solid transparent;
+  border-right: 6px solid #f5f5f5;
+  border-bottom: 6px solid transparent;
+  margin-left: 6px;
+}
+
+
+[data-tooltip-pos="right"]:before,
+[data-tooltip-pos="right"]:after {
+  bottom: auto;
+  left: 100%;
+  top: 50%;
+  transform: translate(-10px, -50%);
+}
+
+[data-tooltip-pos="right"]:after {
+  margin-left: 11px;
+}
+
+[data-tooltip-pos="right"]:hover:before,
+[data-tooltip-pos="right"]:hover:after {
+  transform: translate(0, -50%);
+}
+
+[data-tooltip-length]:after {
+  white-space: normal;
+}
+
+[data-tooltip-length="small"]:after {
+  width: 80px;
+}
+
+[data-tooltip-length="large"]:after {
+  width: 260px;
+}
+
+.headSection {
+  margin: 25px 0;
+}
+
+.switch-field {
+  display: flex;
+  overflow: hidden;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  background-color: #e4e4e4;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  padding: 8px 16px;
+  margin-right: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field input:checked+label {
+  background-color: #53B7E8;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+.metroCity label {
+  margin: 8px 0 5px !important;
+}
+
+#more {
+  display: none;
+}
+/*Calculator section*/
+
+#otherCalc {
+  margin: 25px 0;
+}
+
+.otherCalcCard {
+  padding: 20px;
+  border-radius: 1.6rem;
+  border: 1px solid #dcdcdc;
+  background-color: #f7f7f7;
+}
+
+.calculatorList {
+  margin: 15px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculatorList li {
+  padding: 12px 15px;
+  background-color: #FFF;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.calculatorList .secondCard {
+  margin: 0 20px;
+}
+
+.calculatorList li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.calculatorList li img {
+  width: 60px;
+  height: 60px;
+}
+
+.calculatorList li:hover {
+  border: 1px solid #ed1c24;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+}
+
+/*End Calculator section*/
+
+
+@media only screen and (max-width:480px) {
+  .hra-fields {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .hraCard-grid,
+  .metroCity,
+  .hraImportant-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hraCard {
+    padding: 12px;
+  }
+
+  .hra-fields {
+    margin-top: 0;
+  }
+
+  .hra-fields .formGroup {
+    width: 100%;
+  }
+
+  .calculator-submit {
+    margin: 10px auto 0;
+  }
+
+  .resultBox {
+    height: auto;
+  }
+
+  .hraTaxExemption-ordered {
+    column-count: 1;
+  }
+
+  .hraCalculation-flex {
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 0;
+  }
+
+  .documentReqd-list,
+  .conditionForHRA-list {
+    padding-left: 5px;
+  }
+
+  [data-tooltip-pos="right"]:before,
+  [data-tooltip-pos="right"]:after {
+    bottom: auto;
+    left: -54px;
+    top: 74px;
+    transform: translate(-10px, -50%);
+  }
+    
+    
+  .calculatorList {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .calculatorList li {
+    width: 100%;
+  }
+
+  .calculatorList .secondCard {
+    margin: 0;
+  }
+
+  .otherCalcCard {
+    margin-top: 15px;
+  }
+
+}
+.hraRules-flex img, .hraCalculation-flex img{position: relative; top: 10px; margin-bottom: 10px;}
+.documentReqd-flex img, .conditionForHRA-flex img{position: relative; top: 8px;}
+

@@ -1,0 +1,89 @@
+<style>.fa-twitter:before {
+    background-image: url(/assets/images/twitter.svg);
+    content: '' !important;
+    width: 31px;
+    height: 13px;
+    position: absolute;
+    left: 58px;
+    background-repeat: no-repeat;
+}
+
+.glsslider .slick-list {
+    min-height: 173px !important;
+}
+
+.icon-width {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 10px;
+}
+
+.share-custom {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.glos-view ul .share-top {
+    margin-top: 0 !important;
+}
+
+.share-icon {
+    width: 16px;
+    margin-left: 12px;
+    height: 16px;
+}
+
+.glos-view ul li {
+    border-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 640px) {
+    .rhsFixed_Wrapper {
+        margin-top: 45px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul.glossaryUL li span {
+    float: left;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    color: #08315f;
+    font-size: 1.4em;
+    /* border: 1px solid #08315f;*/
+    box-sizing: border-box;
+    border-radius: 100%;
+    background: #e0e0e0;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    margin-right: 5px;
+}
+
+a {}
+
+#heading p {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.glos-view ul li:last-child:before {
+    width: 0 !important;
+}
+
+.glos-view ul li:last-child {
+    padding-left: 1rem !important;
+}
+
+</style>

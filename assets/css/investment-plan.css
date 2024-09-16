@@ -1,0 +1,349 @@
+/* Dont copy */
+
+
+/*  */
+#investmentPlans {
+  margin: 25px 0;
+}
+
+.investmentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+.investmentMainTitle {
+  font-size: 30px !important;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+  color: #000;
+  text-align: left;
+  margin: 0;
+}
+
+.investmentTitle {
+  font-size: 24px !important;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+  color: #000;
+  text-align: left;
+  margin: 0;
+}
+
+.investmentSubTitle {
+  font-size: 20px !important;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+  color: #000;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.investmentSubTitles {
+  font-size: 18px !important;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+  color: #000;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.investmentDesc {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: .32px;
+  color: #000;
+}
+
+.investmentFlex-start {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.investmentFlex-wrap {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 10px 0 20px;
+
+}
+
+.investmentList {
+  margin-left: 15px;
+}
+
+.investmentList li {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+.arrowImg {
+  padding-top: 5px;
+}
+
+.whatInvestmentPlan-cards {
+  max-width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+  margin-left: 25px;
+  margin: 12px 0 12px 25px;
+}
+
+.whatInvestmentPlan-cards img {
+  transform: rotate(270deg);
+}
+
+.benefitsPlans-card {
+  max-width: 375px;
+  min-height: 245px;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+.inline-links {
+  text-decoration: underline;
+  color: #004A8F;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.rightArrow {
+  width: 25px;
+  height: 25px;
+}
+
+.blueBanner-cta {
+  background-color: #EFF8FF;
+  border: 1px solid #A2B3C1;
+  border-radius: 8px;
+  padding: 13px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0 20px;
+}
+
+.blueBanner-cta p {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #003366 !important;
+}
+
+.blueBanner-cta a {
+  background-color: #ED1C24;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  width: auto;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 12px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blueBanner-cta a::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+.accordion-btns p{font-size: 15px;}
+
+@media only screen and (max-width:480px) {
+  .investmentGrid {
+    grid-template-columns: 100%;
+  }
+
+  .benefitsPlans-card {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .blueBanner-cta {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+
+
+/* Media Query */
+@media only screen and (max-width:480px) {
+    #more{display: none !important; }
+    #myBtn{display: block !important;}
+    #more.active{display: block !important;}
+}
+
+/* Below all Animations */
+@keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+/* ashwini reddy css start */
+.investplansprite{background-image: url('/assets/images/investment-plan/investmentplansprite.svg');}
+.investimg{background-position: -519px -295px;
+  width: 462px;
+  height: 256px;
+  background-size: 499px;}
+.investimg1 {background-position: 854px -898px;
+  height: 51px;
+  background-size: 853px !important;
+min-width: 34px;}
+  .investimg11 {background-position: 854px -898px;
+    height: 51px;
+    background-size: 853px !important;
+    width: 40px; }
+
+    .investimg2 {
+      background-position: 770px -875px;
+      height: 51px;
+      background-size: 770px !important;
+      width: 37px;position: relative;
+  }
+  .investimg3 {
+    background-position: 20px -633px;
+    height: 51px;
+    background-size: 609px !important;
+    min-width: 20px;
+}
+.investimg4 {
+  background-position: 776px -973px;
+  height: 51px;
+  background-size: 853px !important;min-width: 24px;
+}
+
+  
+.suggestion p{
+    margin-bottom: 20px;
+    max-width: 100%;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 20px;
+}
+.suggestion p a{color:#da251c !important; text-decoration: none; }
+.disclaimer p{    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: .32px;
+    color: #000; padding-bottom: 10px;}
+
+  @media only screen and (max-width:1366px){
+    .investimg11{width: 50px;}
+    .investimg2{min-width: 38px;}
+    .benefitsPlans-card {
+      max-width: 318px;min-height: 270px;}
+  }
+
+  @media only screen and (max-width:480px){
+  .investimg {
+    background-position: -442px -238px;
+    width: 362px;
+    height: 219px;
+    background-size: 410px;
+}
+.investimg11{min-width: 34px;}
+.investmentPlans{margin-top: 0 !important;}
+.investmentFlex-wrap{justify-content: center!important;}
+.whatInvestmentPlan-cards{margin: 12px 012px 8px;}
+  }
+
+
+
+  .investspace{  margin:-10px  0 30px 0 !important;}
+
+.investimg2{position: relative;}
+  .investimg2:before {position: absolute;
+    content: '';
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid white;
+    top: 8px;
+    left: 4px;}
+.investimg2 span{    position: absolute;
+    top: 13px;
+    left: 5px;
+    color: #da251c !important;
+    font-size: 12px;
+    font-weight: 600;}
+
+.rating-img {
+    background-image: url(../images/term-insurance/testimonial-rating-sprites.webp) !important;
+    width: 120px;
+    background-position: -1125px -191px;
+    height: 120px;
+}
+.rating-section .actual-ratings, .actual-ratings{    top: 19%;}
+.votedcheck {
+    background-image: url(../images/term-insurance/testimonial-rating-sprites.webp);
+    width: 40px;
+    height: 40px;
+    background-position: -130px 0;
+}

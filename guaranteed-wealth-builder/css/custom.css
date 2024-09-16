@@ -1,0 +1,152 @@
+body{font-family: 'Roboto', sans-serif;}
+
+*,h1,h2,h3,h4,h5,h6,p{padding: 0px;margin: 0px;}
+.container{width: 100%;max-width: 1920px;margin: 0 auto;}
+/* header */
+.bg-light {background: #FFFFFF 0% 0% no-repeat padding-box !important;border-bottom: 1px solid #BEBEBE;}
+.navbar-brand{padding: 0;margin-right: 0;}
+.logo{width: 250px;height: 61px;margin-left: 33px !important;}
+.lg img{margin:10px 0;}
+/* header */
+
+/* banner section */
+.tuli_section .term_plan{color: #163D79;font-weight: 900;font-size:35px;width: 100%;max-width:582px;margin: 0 auto;font-style: italic;}
+.tuli_section .banner_img{ width: 100%; height: auto;}
+.tuli_section .custom-div{padding: 60px 0px;}
+.tuli_section .call_back{padding: 12px;width: 100%;max-width: 297px; color: #FFF; font-size:30px; font-weight: 700;background:transparent linear-gradient(180deg, #E90010 0%, #6C7500 0%, #B2C300 100%) 0% 0% no-repeat padding-box;;border-radius:12px;text-align: center; display: inline-block; text-decoration: none;margin: 0 auto;}
+.call_back:hover{color: #FFF;}
+.center_call{margin:0 auto;width: 100%; max-width: 321px;left: 50%; position: relative; transform: translate(-50%, -50%); margin-top:71px;}
+.tuli_section .ulip_earn{    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0px 50px 0px;
+    position: absolute;
+    width:74%;
+    left: 0;
+    text-align: left;
+    padding-left: 10%;
+    background:#ED1C24 0% 0% no-repeat padding-box;;
+    height: 0px;
+    margin-top: 2rem;
+    z-index: -1;}
+.tuli_section .borne_poly{font-size: 24px;text-align: center;padding: 15px;font-weight: 400;}
+.right_btnn{position: fixed;  right: 30px;bottom: 0;background:transparent linear-gradient(180deg, #E90010 0%, #6C7500 0%, #B2C300 100%) 0% 0% no-repeat padding-box;;border-radius: 50%;padding: 10px;text-align: center; z-index: 1000;}
+.tuli_section .img_width{width: 500px;height: 100%;}
+.tuli_section .benega{color: #163D79;font-weight: 900;font-size:35px; font-style: italic;padding-left: 65px;}
+/* .tuli_section .ulip1{padding: 6px;width: 100%;max-width: 275px; color: #FFF;font-size: 14px; font-weight: 700;text-align: center; border-radius: 15px;background: #203D75 0% 0% no-repeat padding-box; text-decoration: none;margin: 0 auto;margin-top: 8px;} */
+/* banner section */
+
+
+/* introducing section */
+
+.introducing{background: #f9f9f9; padding: 109px 0 86px;}
+.introducing-heading{ font-size: 35px;padding-bottom:30px; font-weight: 400; line-height: 42px; color: #e90010;}
+ .introducing .new-kotak{font-size: 18px; font-weight: 300;line-height: 26.619359970092773px;font-style: normal;color: #000000;    margin-top: 30px;}
+ .introducing .wealth{color: #003366;font-weight: 500;font-style:italic ;}
+/* introducing section */
+
+/* benifits section */
+.benfits{padding: 93px 0 101px;}
+.benfits .high{font-size: 20px;font-weight: 300;line-height: 24px;color: #000000;width: 100%;max-width: 296px;margin: 0 auto; }
+.benfits .benfits_heading{padding-bottom:30px; font-size: 35px; font-weight: 400; line-height: 42px; color: #e90010;}
+.benfits .benfits_retrun{ font-size:20px ; font-weight: 600 !important; color:#000000;padding-top:12px;}
+.benfits .custom_space{margin-top: 80px;}
+.benfits .kotakimg{width: 92px; height: 82px;}
+.benfits .custom_space{margin-top: 60px;}
+/* benifits section */
+
+/* why invest us section */
+.invest{background: #F9F9F9;padding: 98px 0px 78px 0px;margin-top: 104px;}
+.invest .why{font-size: 35px;font-weight: 400; color: #E90010;padding-bottom: 100px;opacity: 1;}
+.invest .cards{background: #FFF;border-radius: 10px; height: 100%;width: 100%;max-width: 240px;padding: 13px;}
+.invest .fam-img{ width: 100%; border-radius: 10px;}
+.invest .life{ font-size: 12px;letter-spacing: 0.3px;color: #161616;opacity: 1; font-weight: 600;}
+.invest .crore{font-size: 20px;letter-spacing: 0.45px;color: #161616;opacity: 1;padding: 20px 0px 7px; font-weight: 700;}
+.invest .branch{width: 100%;max-width: 124px;margin: 0 auto;}
+.invest .cards::before{position: absolute;content: ''; color: #e90010;border-bottom: 2px solid red;background-repeat: no-repeat;background-size: 100%; height: 2px; width: 123px; bottom: 0px; left: 50%;
+ transform: translate(-50%, -50%);}
+ .invest .by_hand{width: 108px;height: 78px;}
+ .invest .custom_space{width: 100%;max-width: 1014px;margin: 0 auto;}
+/* why invest us section  */
+
+
+
+/* discliamer section */
+.accordion-kotak{padding: 108px 0 80px;}           
+ .accordion-kotak .accordion-item {   width: 100%; max-width: 691px; margin: 0 auto;  }
+ .accordion-kotak button:focus:not(:focus-visible) { box-shadow: none;}
+/* .accordion-kotak .accordion-button:not(.collapsed) { font-size: 13px; font-weight:300 ; color: #000000; }  */
+.accordion-kotak .accordion-button:not(.collapsed) {background: #fff;}
+ .accordion-kotak .accordion-button{background: #FFFFFF 0% 0% no-repeat padding-box; filter: drop-shadow(3.9929959774017334px 3.9929959774017334px 3.3274965286254883px rgba(128,128,128,0.45 ));}
+.accordion-kotak .accordion-item:last-of-type .accordion-button.collapsed { border-bottom-right-radius: 0;   border-bottom-left-radius: 0; }
+.accordion-kotak .accordion-item:last-of-type .accordion-button.collapsed { border-bottom-right-radius: 25px;  border-bottom-left-radius: 25px; }
+ .accordion-kotak .accordion-item:first-of-type .accordion-button { border-radius: 25px;}
+ .accordion-kotak .accordion-body {  margin-top: 20px; border: 1px solid; padding: 24px;}
+.accordion-kotak .accordion-item {border: 0;}
+.accordion-kotak .accordion-button::after { width: 1.25rem; height: 1.25rem; margin-left: auto;content: ""; background-image: url('../images/v_img.svg'); background-repeat: no-repeat; background-size: 1.25rem; transition: transform .2s ease-in-out;background-size: contain;
+    width: 39px;
+    height: 39px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.accordion-kotak .accordion-button{font-size: 18px;font-weight: 400;color: #000000; }
+
+.accordion-kotak .accordion-button:not(.collapsed)::after { background-image: url('../images/v_img.svg');   transform: rotate(-180deg); background-size: contain;
+    width: 39px;
+    height: 39px;
+    background-position: center;
+    background-repeat: no-repeat;}
+.accordion-kotak .accordion-button:focus {  box-shadow: none;}
+.accordion-kotak .beware{font-size: 15px;letter-spacing: 0.3px;color: #161616;opacity: 1; font-weight: 400;padding-bottom: 20px;}
+
+.link_kotak{word-wrap: break-word;}
+.top_flow{color: #FFF;background: green;padding: 10px;border-radius: 50%; width: 50px;  height: 50px;  position: relative;
+    left: 96%;transform: translate(-50%, -50%); border:unset;top: 102px;}
+/* disclaimer section */
+
+
+
+/* streaming now section */
+.video_sec{padding-top: 97px;}
+.video_sec .trem_plan{font-size: 35px;font-weight: 400; line-height: 42px;color: #E90010;}
+.video_sec .streaming{color: #003974;}
+.video_sec .gap_video{padding-bottom:70px;}
+/* streaming now section */
+
+/* plans_availabel start */
+.plans_availabel{padding: 48px 0 21px; }
+.plans_availabel .plans{ font-size: 35px;font-weight: 400;color: #E90010;padding-bottom:10px;line-height: 42px;}
+ .plans::after{position: absolute;
+    width: 100%;
+    max-width: 123px;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2px;top: 101% !important;
+    background: #B2B4B5;transform: translate(-50%, -50%);left: 50%;
+  
+    }
+    .plans_availabel .here{margin-top: 20px;  font-size: 18px ; font-weight: 300;line-height: 26.62px;}
+
+/* plans_availabel end */
+
+/* kotak plans start */
+.kotak_plan{margin: 20px 0 49px;  background: #F9F9F9; padding: 86px 0 90px;}
+.kotak_plan .savings{color: #003366; font-size: 28px; font-weight: 400; padding-bottom: 26px;}
+.kotak_plan .that{font-size: 18px; font-weight: 300; width: 100%; max-width: 1394px; margin: 43px auto  0 ;line-height: 26.62px; }
+.kotak_plan .invest_kotak{font-weight: 500;font-style: italic;color: #003366;}
+/* kotak plan end */
+
+
+/* key feature  section  start */
+.key_feature{padding: 49px 0 29px;}
+.key_feature .high{font-size: 20px;font-weight: 300;line-height: 24px;color: #000000; width: 100%; max-width: 310px; margin: 0 auto; }
+.key_feature .benfits_heading{padding-bottom: 33px; font-size: 35px; font-weight: 400; line-height: 42px; color: #e90010;}
+.key_feature .benfits_retrun{ font-size:20px ; font-weight: 600 !important; color:#000000;padding-top: 27px;}
+.key_feature .kotakimg{width: 92px; height: 82px;}
+.key_feature .show_story{filter: drop-shadow(10.337471008300781px 10.337471008300781px 3.6919538974761963px rgba(0,0,0,0.2 ));
+ background: #e90010; background: linear-gradient(0deg,  #e90010 0.00%,  #6c7500 0.00%,  #b2c300 100.00%);padding: 20px;
+    width: 100%; max-width: 280px; border: 0; border-radius: 12px; display: inline-block;margin: 112px auto 0;font-size: 30px; font-weight: 700; line-height: 18.106800079345703px;  color: #ffffff;box-shadow: none;}
+.key_feature .gap_feature{margin-top: 33px;}
+
+ /*key features end */

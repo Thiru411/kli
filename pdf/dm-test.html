@@ -1,0 +1,86 @@
+<!-- Section Start -->
+<section>
+    <!-- breadcrumb Start -->
+    <article class="breadcrumb">
+        <div class="midWrapper"><ul><?php echo $this->breadcrumb->output(); ?></ul></div>
+    </article>
+    <!-- breadcrumb End --> 
+
+    <!-- midWrapper Start -->
+    <article>
+        <div class="midWrapper">
+            <div class="headDesc">
+                <h1>Know Your Agent</h1>      
+                <a href="javascript:;" class="kliBack" onclick="goBack()"><span>Back</span></a>
+            </div>
+        </div>
+    </article>
+
+    <!--<article class="searchWrapper">
+        <div class="midWrapper">
+            <div class="searchBox searchBox01">
+                <form id="LifeAdvisorSearchForm" name="LifeAdvisorSearchForm" onsubmit="return false" autocomplete="off">
+                    <input type="text" id="searchLifeAdvisor" value="<?php if(isset($_GET["ID"])){echo $_GET['ID']; }?>" name="searchLifeAdvisor" placeholder="Enter Agent ID" />
+                    <a href="javascript:;" id="searchLifeAdvisorSubmit" name="searchLifeAdvisorSubmit">Search</a>
+                    <div id="searchLifeAdvisor_error" class="input_error errorMsg"></div>
+                </form>
+            </div>
+        </div>
+    </article>-->
+
+    <article class="searchAdvisorsWrapper">
+        <div class="midWrapper">        
+            <div id="lifeAdvisorData">
+				<div class="searchAdvisorsResult">
+					<h2>Result for 60816887</h2>
+						<div class="advisorsWrap">
+						<img src="https://insurance.kotak.com/assets/images/lifeadvisor_thumb.png" class="advisorsImg">
+						<ul class="advisorsList">
+						<li>Name: <span>MR CHANDAN SINGH BENIWAL</span></li>
+						<li>Agent ID: <span>60816887</span></li>
+						<li>Gender: <span>MALE</span></li>
+						<li>Agent status: <span>ACTIVE</span></li>
+						<li>Type: <span>Agent</span></li>
+						<li>Date of Appointment: <span>29-Aug-2019</span></li>
+						<li>Valid till: <span>Valid until Terminated or Suspended</span></li>
+						</ul>
+						</div>
+				</div>
+			</div>
+                    
+            <div class="innerLoader" style="display: none;">
+                <img src="https://insurance.kotak.com/assets/images/loader.gif" alt="Kotak Loader">
+            </div>
+        </div>
+    </article>
+           
+	
+	<article class="buyPlan buyPlan01">
+        <div class="midWrapper">
+            <div class="topDesc">
+                <h2>Explore term insurance plan</h2>            
+            <p>If you don't have an insurance, click below to explore or calculate premium.</p>
+            <div class="centerDiv">			
+                <a data-action="click" data-label="Know More" data-category="verify-life-advisor" data-event="event button" href="<?php echo base_url()?>online-plans/online-protection-plans/kotak-e-term-plan-online" class="redBtn ga_banner_track">Know More</a>            
+                <a data-action="click" data-label="Calculate Premium" data-category="verify-life-advisor" data-event="event button" href="<?php echo base_url()?>OnlineTermInsurance/?utm_source=organic&utm_medium=website&utm_campaign=calculate_premium&utm_content=life_advisor&lead_group=kotak_organic" class="link ga_banner_track">Calculate Premium</a>
+            </div>
+			</div>            
+        </div>
+    </article>
+
+</section>
+<script>
+    var gaCat = <?php echo json_encode($gaCat); ?>;
+
+    var agentsJson = "";
+    var jsonSucessStories = "";
+    var resLimit = "";
+    var jsonExeAdvisors = "";
+    var resExeAdvLimit = "";
+    var jsonFaqs = "";
+    var resFaqsLimit = "";
+
+    var formsJson = "";
+    var formsJsonLmt = "";
+
+</script>

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1366px) {
+  .container{padding: 0 80px;}
+}
+
+@media only screen and (max-width: 1200px) {
+  .container{padding: 0 40px;}
+}
+
+@media only screen and (max-width: 991px) {
+  .container{padding: 0 15px;}
+}
+
+@media only screen and (max-width: 768px) {
+  h3 {font-size: 29px;line-height: 40px;}
+  h4 {font-size: 22px;}
+  .p-sec {font-size: 20px;}
+
+
+  .pl-100{padding-left: 0px;}
+  .logo{height: 32px;}
+  .line{margin-bottom: 30px;}
+  .line:after{display: none;}
+  .choose-option {padding: 66px 0 30px 0;}
+  .thank-cards img {height: 200px;}
+  .mb-100 {padding-top: 45px;}
+  .most-popular {padding: 50px 0 40px 0;}
+  .most-popular.thank-cards img {height: 201px;}
+  .most-popular .col-md-4{margin-bottom: 40px;}
+  .down-cards {padding: 50px 0 30px 0;}
+  .down-cards .col-md-6{margin-bottom: 60px;}
+  .down-cards .col-md-6:last-child{margin-bottom: 0;}
+  .modal-body {padding: 54px 15px 31px 15px;}
+  .mx-img{text-align: inherit;margin-top: 20px;}
+  .card-align {position: absolute;top: 0;left: 0;transform: unset;}
+  .white-card {padding: 50px 15px 48px 15px;}
+  .pl-40 {padding-left: 15px;}
+  .firstthanq h2{font-size: 32px;}
+  .custom_drop .dropdown-menu{left: -2rem !important;}
+  .modal-body{padding: 15px;} 
+
+}
+
+
+

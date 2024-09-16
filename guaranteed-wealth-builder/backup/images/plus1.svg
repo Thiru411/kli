@@ -1,0 +1,14 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.409" height="81.409" viewBox="0 0 81.409 81.409">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c7500"/>
+      <stop offset="1" stop-color="#afc000"/>
+    </linearGradient>
+  </defs>
+  <g id="trophy_add" transform="translate(0 0)">
+    <g id="background">
+      <path id="Path_47216" data-name="Path 47216" d="M40.7,4.134A36.558,36.558,0,1,1,26.476,7,36.583,36.583,0,0,1,40.7,4.134M40.7,0a40.7,40.7,0,1,0,40.7,40.7A40.705,40.705,0,0,0,40.7,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_47217" data-name="Path 47217" d="M157.722,110.984a2.425,2.425,0,0,0-2.45-1.945c-10.042.318-18.158-8.306-18.236-8.391a2.423,2.423,0,0,0-3.557,0c-.081.088-8.2,8.715-18.239,8.394a2.423,2.423,0,0,0-2.45,1.945,32.888,32.888,0,0,0,.879,13.884,35.776,35.776,0,0,0,6.163,12.447,44.573,44.573,0,0,0,14.259,11.868,2.42,2.42,0,0,0,2.318,0,44.573,44.573,0,0,0,14.259-11.868,35.775,35.775,0,0,0,6.169-12.447A32.845,32.845,0,0,0,157.722,110.984Zm-12.609,15.234h-7.438v7.443a2.42,2.42,0,0,1-4.84,0v-7.443H125.4a2.422,2.422,0,0,1,0-4.842h7.444v-7.443a2.42,2.42,0,0,1,4.84,0v7.443h7.432a2.422,2.422,0,0,1,0,4.842Z" transform="translate(-94.551 -83.99)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

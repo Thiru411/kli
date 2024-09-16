@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.6" height="87.742" viewBox="0 0 66.6 87.742">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c7500"/>
+      <stop offset="1" stop-color="#afc000"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_22051" data-name="Group 22051" transform="translate(-957.455 -1475.055)">
+    <path id="Path_47088" data-name="Path 47088" d="M59.472,88.076a22.115,22.115,0,0,0-22.115,22.115H81.592A22.115,22.115,0,0,0,59.472,88.076Z" transform="translate(930.979 1452.605)" fill="url(#linear-gradient)"/>
+    <path id="Path_47089" data-name="Path 47089" d="M90.351,46.127a10.871,10.871,0,1,0-21.74.275,10.873,10.873,0,1,0-21.747,0,8.936,8.936,0,0,0-.06-1.081.055.055,0,0,1,0-.051,10.87,10.87,0,0,0-21.679.858,32.614,32.614,0,1,1,65.229,0Z" transform="translate(932.329 1461.675)" fill="url(#linear-gradient)"/>
+    <path id="Path_47090" data-name="Path 47090" d="M62.878,37.418a1.5,1.5,0,0,0-1.5,1.5V60.239a1.5,1.5,0,1,0,3,0V38.92a1.5,1.5,0,0,0-1.5-1.5Z" transform="translate(927.19 1458.286)" fill="url(#linear-gradient)"/>
+    <path id="Path_47091" data-name="Path 47091" d="M61.329,14.155C49.966,20.377,50.456,46.493,50.456,46.493a10.874,10.874,0,0,1,21.747,0s.489-26.116-10.874-32.338Z" transform="translate(928.738 1461.584)" stroke="#fff" stroke-width="1.2" fill="url(#linear-gradient)"/>
+    <path id="Path_47092" data-name="Path 47092" d="M87.037,109.674c-5.245-2.013-8.719-6.25-10.336-12.612a32.784,32.784,0,0,1-.933-8.514c5.407-1.711,9.47-3.356,11.265-4.119,1.8.761,5.855,2.4,11.264,4.119a32.753,32.753,0,0,1-.933,8.514C95.747,103.425,92.272,107.662,87.037,109.674Z" transform="translate(925.15 1451.62)" stroke="#fff" stroke-width="1.2" fill="url(#linear-gradient)"/>
+    <path id="Path_47093" data-name="Path 47093" d="M93.2,93.485a1.5,1.5,0,0,0-2.124.022l-4.514,4.61-1.716-1.754a1.5,1.5,0,0,0-2.146,2.1l2.786,2.854a1.5,1.5,0,0,0,2.147,0l5.589-5.708A1.5,1.5,0,0,0,93.2,93.485Z" transform="translate(924.221 1450.397)" fill="#e5ffff"/>
+    <circle id="Ellipse_39" data-name="Ellipse 39" cx="10.328" cy="10.328" r="10.328" transform="translate(979.74 1518.524)" fill="#fff" stroke="#8b9700" stroke-width="2"/>
+    <path id="Path_47097" data-name="Path 47097" d="M91.075,93.507l-4.513,4.61-1.716-1.755a1.5,1.5,0,0,0-2.146,2.1l2.786,2.854a1.5,1.5,0,0,0,2.147,0l5.589-5.708a1.5,1.5,0,1,0-2.146-2.1Z" transform="translate(924.221 1450.397)" fill="#fff"/>
+  </g>
+</svg>

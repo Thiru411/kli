@@ -1,0 +1,98 @@
+<!-- Section Start -->
+<section> 
+  <!-- breadcrumb Start -->
+  <article class="breadcrumb">
+    <div class="midWrapper">
+      <ul>
+		<?php echo $this->breadcrumb->output(); ?>
+      </ul>
+    </div>
+  </article>
+  <!-- breadcrumb End --> 
+  
+  <!-- midWrapper Start -->
+  <article class="containerWrapper">
+    <div class="midWrapper">
+      <div class="headDesc">
+        <h1>Disclaimer</h1>
+        <a href="javascript:;" class="kliBack" onclick="goBack()"><span>Back</span></a> </div>
+      <div class="contDetails">
+
+      <p><b>BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/FRAUDULENT OFFERS.</b></p>
+
+      <p><b>IRDAI is not involved in activities like selling insurance policies, announcing bonus or investment of premiums. Public receiving such phone calls are requested to lodge a police complaint.</b></p>
+      <p><b>Kotak Assured Savings Plan</b> UIN: 107N081V05, Form No: N081.</p>
+<p>This is a savings-cum-protection oriented non-participating endowment assurance plan. For more details on risk factors, terms and conditions, please read sales brochure carefully before concluding a sale.</p>
+
+<p><b>For Ref. No. KLI/23-24/E-BB/594</b></p>
+<p><sup>^</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition<sup>1</sup> Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium paid every year based on the opted premium payment term It will accrue throughout the premium payment term and will be paid out at Maturity or on Death <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any <sup>2</sup>Guaranteed Loyalty Additions is a percentage of Basic Sum Assured and be paid out at Maturity The rate of such addition will be based on the opted premium payment term.</p>
+
+
+
+<p><b>For Ref No. KLI/23-24/E-BB/2173</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>+</sup>Tax benefit is applicable as per the Income Tax Act, 1961. Tax laws are subject to amendments from time to time. Customer is advised to take an independent view from tax consultant.</p>
+
+<p><b>For Ref No. KLI/23-24/E-BB/1701</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>+</sup>Tax benefit is applicable as per the Income Tax Act, 1961. Tax laws are subject to amendments from time to time. Customer is advised to take an independent view from tax consultant.</p>
+
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1476</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+<p><sup>+</sup>Tax benefit is applicable as per the Income Tax Act, 1961. Tax laws are subject to amendments from time to time. Customer is advised to take an independent view from tax consultant.</p>
+
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1329</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1></sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+
+<p><b>For Ref. No. KLI/23-24/E-BB/947</b></p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1589</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. 1Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+<p><sup>*</sup>Guaranteed Yearly Additions is added every time you pay the premium which is payable at maturity or death whichever is earlier.</p>
+<p><sup>+</sup>Tax benefit is applicable as per the Income Tax Act, 1961. Tax laws are subject to amendments from time to time. Customer is advised to take an independent view from tax consultant.</p>
+
+
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1365</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup>Annualized paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup> Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+
+<p><b>For Ref. No. KLI/23-24/E-BB/815</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup>Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1049</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. 1Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1601</b></p>
+<p><sup>’</sup>Kotak Critical Illness Plus Benefit Rider - Kotak Critical Illness Plus Benefit Rider - 107B020V01, Form No.: B020. In case of diagnosis with any one of the 37 Critical Illnesses specified under Kotak Critical Illness Plus Benefit Rider, the Rider shall terminate post Rider Sum Assured has been paid to the Life Insured, and the Base Plan shall continue for the remaining policy term. In case the life insured undergoes Angioplasty, minimum of Rs. 5 lacs or Base Rider Sum Assured will be payable and the remaining rider sum assured (if any) shall continue for the remaining 36 Critical Illnesses. This Rider shall terminate once 100% of the Rider Sum Assured has been paid or on the completion of the Rider Benefit Term, whichever is earlier. For more details on riders please read the Rider Brochure.</p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male who is willing to invest Rs. 7,197 per month (Rs. 7,000 per month PLUS Kotak Critical Illness Plus Benefit Rider’s premium is Rs. 197 per month) and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 13,28,178 and guaranteed maturity benefit is Rs. 20,31,314. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+<p><sup>~</sup>Tax benefit is applicable as per the Income Tax Act, 1961. Tax laws are subject to amendments from time to time. Customer is advised to take an independent view from tax consultant.</p>
+<p><sup>*</sup>Guaranteed Yearly Additions is added every time you pay the premium which is payable at maturity or death whichever is earlier</p>
+
+<p><b>For Ref. No. KLI/23-24/E-BB/1123</b></p>
+<p><sup>@</sup>Guaranteed benefits due under this plan are available provided premiums are paid regularly for the entire premium payment term and the policy is in force. Guaranteed Maturity Benefit payable at maturity is inclusive of Basic Sum Assured plus Accrued Guaranteed Yearly<sup>1</sup> Additions plus Guaranteed Loyalty<sup>2</sup> Addition. <sup>1</sup>Guaranteed Yearly Additions is a percentage of Cumulative Annualized Premium<sup>#</sup> paid every year based on the opted premium payment term. It will accrue throughout the premium payment term and will be paid out at Maturity or on Death. <sup>#</sup>Annualized Premium is the premium payable in a policy year, excluding the taxes, rider premium underwriting extra premiums and loadings for modal premium, if any. <sup>2</sup>Guaranteed Loyalty Addition is a percentage of Basic Sum Assured and be paid out at Maturity. The rate of such addition will be based on the opted premium payment term.</p>
+<p><sup>^</sup>The above illustration is for an 18-year-old healthy male, non-smoker who is willing to invest Rs. 10,000 per month and will pay for 10 years for this policy; where the policy term is 20 years, the basic sum assured is Rs. 18,97,398 and guaranteed maturity benefit is Rs. 29,01,878. The premium is assuming the policy is bought Online. The above premium figures are exclusive of Goods and Services Tax and Cess. Goods and Services Tax and Cess thereon shall be charged as per the prevalent tax laws over and above the said premiums.</p>
+<p><b>Kotak Mahindra Life Insurance Company Ltd</b>.Regn. No.: 107, CIN: U66030MH2000PLC128503, Regd. Office: 8 th Floor, Plot # C-12, G-Block, BKC, Bandra (E), Mumbai-400 051. Website: https://www.kotaklife.com/ |WhatsApp: 9321003007 | Toll Free No.: 1800 209 8800.</p>
+  <p><b>Trade Logo displayed above belongs to Kotak Mahindra Bank Limited and is used by Kotak Mahindra Life Insurance Company Ltd. under license.</b></p>
+
+      
+       
+
+
+
+      </div>
+    </div>
+  </article>
+  <!-- midWrapper End -->
+</section>
+<!-- Section End -->

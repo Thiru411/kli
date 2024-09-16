@@ -1,0 +1,1267 @@
+
+
+/* Above is the default font for testing dont copy above */
+
+/* Common Element from all category */
+#authorSection {
+  margin: 20px 0;
+  z-index: 1;
+}
+
+/* Author Section */
+.topRetirementSection-title{width:100%}
+.authorBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.authorDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.card{height: auto !important;}
+#monthYear{display: inline-block; padding-left: 3px;}
+.authorName,
+.authorReview {
+  margin: 2px 0 !important;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.authorImg,
+.authorReviewImg {
+  width: 75px;
+  height: 75px;
+  background-color: #ccc;
+  display: block;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.authorImg img,
+.authorReviewImg img {
+  border-radius: 50%;
+}
+
+.articleDate,
+.articleRead {
+  margin: 2px 0 !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.blogsStage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.blogsTooltipSavings {
+  position: relative;
+  cursor: pointer;
+}
+
+.blogsTooltipSavings .tooltiptext {
+  visibility: hidden;
+  width: 450px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  color: #000;
+  text-align: left;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  left: 00%;
+  margin-left: -60px;
+  font-size: 14px;
+  padding: 12px;
+  box-shadow: 0 1px 15px -2px #c1c1c1;
+}
+
+.blogsTooltipSavings .tooltiptext::after {
+  content: "";
+  border: 1px solid #cccc;
+  border-bottom: none;
+  border-right: none;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0;
+  right: calc(50% - 8px);
+  transform: translatey(-9px) rotate(45deg);
+  background-color: #FFF;
+}
+
+.blogsTooltipSavings:hover .tooltiptext {
+  visibility: visible;
+  z-index: 999;
+}
+
+.nameTag {
+  color: #0b396b;
+  font-weight: 700;
+}
+
+.vSeperation {
+  border-left: 2px solid #c1c1c1;
+  height: 75px;
+}
+
+.nameTitle div {
+  display: flex;
+  align-items: center;
+}
+
+.nameTitle img {
+  width: 20px !important;
+  height: 20px;
+  margin-bottom: 2px !important;
+  margin-right: 8px;
+}
+
+/* TOC content */
+#tableofContent {
+  margin: 25px 0;
+  z-index: 0 !important;
+}
+
+.contenttable {
+  border: 1px solid #DBDBDB;
+  border-bottom: none;
+  border-radius: 8px;
+  padding: 20px 20px 35px;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 4%;
+  position: relative;
+}
+
+.show-more-height div {
+  height: 230px;
+  overflow: hidden;
+  transition: height 5.4s linear;
+}
+
+.contenttable div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tocText {
+  padding: 8px 20px 5px;
+  margin-left: 40px;
+  max-width: 290px;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #AEAEAE;
+  border-bottom: none;
+  color: #262626;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.tocContent {
+  color: #003366;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px 0;
+  padding: 10px;
+  width: 430px;
+}
+
+.tocContent img {
+  padding-right: 5px;
+}
+
+.tocContent:hover {
+  color: #003366;
+  transform: translateX(10px);
+  transition: transform 0.5s ease;
+}
+
+.contenttable .tocReadMore {
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  left: 44%;
+  background-color: #ED3237;
+  padding: 8px 20px;
+  border-radius: 18px;
+  width: 15rem;
+  color: #FFF;
+  z-index: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.show-more-height::after {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(50%, white));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%);
+}
+
+/* All Above is repetitive styling used in other category */
+
+/* Title Common */
+#topRetirementSection .topRetirementSection-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #003366 !important;
+  letter-spacing: 0.3px;
+  text-align: left;
+  font-family: Lato-bold;
+  margin: 10px 0;
+}
+
+.retirementPlans-title,
+.typesOfRetirement-title,
+.benefitsOfRetirement-title,
+.pensionPlan-work_title,
+.anuityPlan-title,
+.diffBtn-title,
+.calculateRetirement-title,
+.whyNeedGoodPlan-title,
+.featuresOfRetirement-title,
+.stepsToBuyRetirement-title,
+.topReasonForRetirement-title,
+.factorsToConsider-title,
+.bestTimeToInvest-title,
+.howToCalculate-title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #000;
+  font-family: Lato-bold;
+}
+
+/* Desc Common */
+#topRetirementSection .topRetirementSection-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.retirementPlans-desc,
+.typesOfRetirement-desc,
+.benefitsOfRetirement-desc,
+.pensionPlan-work_desc,
+.anuityPlan-desc,
+.diffBtn-desc,
+.calculateRetirement-desc,
+.whyNeedGoodPlan-desc,
+.featuresOfRetirement-desc,
+.stepsToBuyRetirement-desc,
+.topReasonForRetirement-desc,
+.factorsToConsider-desc,
+.bestTimeToInvest-desc,
+.howToCalculate-desc {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+/* CTA Common */
+.topRetirementSection-cta1 a,
+.kpp-cta a,
+.benefitsOfRetirementB-text a,
+.calculateRetirement-cta a,
+.stepsToBuyRetirement-cta a {
+  background-color: #ED3237;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  /* width: 100%; */
+  border-radius: 25px;
+  display: inline-block;
+  padding: 12px 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.topRetirementSection-cta1 a::before,
+.retirementPlans-flexR a::before,
+.kpp-cta a::before,
+.benefitsOfRetirementB-text a::before,
+.calculateRetirement-cta a::before,
+.stepsToBuyRetirement-cta a::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.kpp-knowMore a {
+  background-color: #FFF;
+  color: #003366 !important;
+  border: 1px solid #003366;
+  font-size: 15px;
+  font-weight: 600;
+  /* width: 100%; */
+  border-radius: 25px;
+  display: inline-block;
+  padding: 12px 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Red banner */
+.retirementPlans-flexR {
+  background-color: #FFF3F3;
+  border: 1px solid #CEB0AC;
+  border-radius: 8px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* margin: 30px 0 0; */
+}
+
+.retirementPlans-flexR p {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #AB2020 !important;
+}
+
+.retirementPlans-flexR a {
+  background-color: #ED1C24;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  width: auto;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 12px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top Section */
+.topRetirementSection-grid {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  align-items: start;
+  gap: 5%;
+}
+
+.topRetirementSection-img {
+  width: 100%;
+  height: auto;
+}
+
+.topRetirementSection-cta1 {
+  margin: 15px 0;
+}
+
+/* retirementPlans */
+#retirementPlans {
+  margin: 30px 0;
+}
+
+.retirementPlans-grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  align-items: center;
+  gap: 4%;
+}
+
+/* Types of Retirement */
+#typesOfRetirement {
+  margin: 30px 0;
+}
+
+.typesOfRetirement-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.typesOfRetirement-card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 560px;
+  min-height: 215px;
+}
+
+.typesOfRetirement-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  margin: 10px 0;
+  letter-spacing: 0.3px;
+  font-family:'Lato-Bold';
+}
+
+.typesOfRetirement-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.typesOfRetirement-subTitle {
+  font-size: 19px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+}
+
+.typesOfRetirement-readMore {
+  color: #ED1C24;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  margin: 10px 0 0;
+  display: inline-block;
+  padding-bottom: 41px;
+}
+
+/* .right-arrow {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.right-arrow::after {
+  content: "\2192";
+  display: block;
+  font-size: 20px;
+} */
+
+.typesOfRetirement-pCards {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 10px 0 5px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards */
+  justify-content: space-between;
+}
+
+.typesOfRetirement-pCard {
+  /* background-color: #FFF;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 1px solid #DBDBDB;
+  max-width: 565px;
+  min-height: 440px; */
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #DBDBDB;
+  max-width: calc(50% - 10px); /* Set maximum width for two cards in a row */
+  flex-grow: 1; /* Allow cards to grow to fill the space */
+  display: flex;
+  flex-direction: column;
+}
+
+.pcName-dwn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pcName-dwn svg {
+  width: 50px;
+  height: 50px;
+}
+
+.product-name a {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #003366;
+  text-decoration: underline;
+  padding-bottom: 8px;
+  font-family: 'Lato-Bold';
+}
+
+.product-name span {
+  color: #ED1C24;
+}
+
+.typesOfRetirement-list {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.typesOfRetirement-list li {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+  color: #000;
+  list-style: disc;
+}
+
+.product-hr {
+  border-top: 1px solid #D4D4D4;
+ 
+}
+.product-brr{  /* Align the horizontal rule to the bottom */
+  border-top: 1px solid #D4D4D4;
+  flex-grow: 1; }
+  .terms-para p { padding: 10px 0;}
+
+.typesOfRetirement-pay,
+.typesOfRetirement-get {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  padding: 5px 0;
+  letter-spacing: 0.3px;
+}
+
+.typesOfRetirement-get span {
+  color: #003366;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.ctaFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 15px;
+}
+
+.ctaFlexS {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 25px 0 15px;
+}
+
+.flexB {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* benefitsOfRetirement */
+#benefitsOfRetirement {
+  margin: 30px 0;
+}
+
+.benefitsOfRetirement-flex {
+  display: grid;
+  grid-template-columns: 3% 95%;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.benefitsOfRetirement-img,
+.anuityPlan-flx img {
+  margin-top: -6px;
+}
+
+.benefitsOfRetirement-img img,
+.anuityPlan-flx img {
+  width: 40px;
+  height: 40px;
+}
+
+.benefitsOfRetirement-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.benefitsOfRetirement-subDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.benefitsOfRetirement-grid {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  align-items: center;
+}
+
+.benefitsOfRetirement-grid2 {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  align-items: center;
+}
+
+.benefitsOfRetirementB-img,
+.benefitsOfRetirementB2-img,
+.benefitsOfRetirementB3-img {
+  position: relative;
+}
+
+#fullBanner {
+  margin: 25px 0;
+}
+
+#fullBanner2 {
+  margin: 8% 0 20px;
+}
+
+.benefitsOfRetirementB-img img {
+  position: absolute;
+  top: -145px;
+  left: 0;
+  width: 280px;
+  height: auto;
+}
+
+.benefitsOfRetirementB2-img img {
+  position: absolute;
+  top: -183px;
+  left: 0;
+  width: 280px;
+  height: auto;
+}
+
+.benefitsOfRetirementB3-img img {
+  position: absolute;
+  top: -172px;
+  left: 0;
+  width: 240px;
+  height: auto;
+}
+
+.benefitsOfRetirementB-text p {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #FFF;
+  font-family: 'Lato-Bold';
+}
+
+.benefitsOfRetirementB-text a {
+  margin-top: 10px;
+}
+
+/* pensionPlan-work */
+#pensionPlan-work {
+  margin: 25px 0;
+}
+
+/* anuityPlan-work */
+#anuityPlan-work {
+  margin: 25px 0;
+}
+
+/* anuityPlan-work */
+#anuityPlan-work {
+  margin: 25px 0;
+}
+
+.anuityPlan-grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  align-items: center;
+  gap: 4%;
+}
+
+.anuityPlan-flx {
+  display: grid;
+  grid-template-columns: 5% 92%;
+  align-items: start;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.anuitySubtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+/* diffBtn-anuity_pension */
+#diffBtn-anuity_pension {
+  margin: 25px 0;
+}
+
+.diffBtn-grid {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  gap: 15px;
+  margin: 15px 0 0;
+}
+
+.diffBtn-anuity,
+.diffBtn-pension {
+  background: transparent linear-gradient(180deg, #F2F2F2 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+}
+
+.diffBtn-head li,
+.diffBtn-anuity li,
+.diffBtn-pension li {
+  font-size: 16px;
+  font-weight: 600;
+  color: #161616;
+  letter-spacing: 0.3px;
+  padding: 12px 10px;
+  border-bottom: 1px dashed #ccc;
+  text-align: left;
+  min-height: 155px;
+}
+
+.diffBtn-head li:first-child,
+.diffBtn-anuity li:first-child,
+.diffBtn-pension li:first-child {
+  border: 1px solid #BBBBBB;
+  border-radius: 22px;
+  background-color: #FFF !important;
+  min-height: 100% !important;
+  position: relative;
+}
+
+.diffBtn-anuity li:first-child::after,
+.diffBtn-pension li:first-child::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  background-color: #FFF;
+  height: 15px;
+  top: -1px;
+  left: -1px;
+  clip-path: polygon(0 0, 100% 0, 43% 28%, 24% 50%, 0 100%, 0% 70%, 0% 30%);
+  border: none;
+}
+
+.diffBtn-anuity li:first-child::before,
+.diffBtn-pension li:first-child::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  background-color: #FFF;
+  height: 15px;
+  top: -1px;
+  right: -1px;
+  clip-path: polygon(0 0, 100% 0, 43% 28%, 24% 50%, 0 100%, 0% 70%, 0% 30%);
+  border: none;
+  transform: rotate(90deg);
+}
+
+/* calculateRetirement */
+#calculateRetirement {
+  margin: 25px 0;
+}
+
+.calculateRetirement-img {
+  margin: 35px 0 15px;
+  text-align: center;
+}
+
+.calculateRetirement-cta {
+  text-align: center;
+}
+
+.calculateRetirement-cta a {
+  padding: 12px 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* whyNeedGoodPlan */
+#whyNeedGoodPlan {
+  margin: 25px 0;
+}
+
+.whyNeedGoodPlan-grid {
+  display: grid;
+  grid-template-columns: 5% 92%;
+  align-items: start;
+  margin: 20px 0;
+}
+
+.whyNeedGoodPlan-subTitle {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+/* featuresOfRetirement */
+#featuresOfRetirement {
+  margin: 25px 0;
+}
+
+.featuresOfRetirement-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 10px;
+}
+
+.featuresOfRetirement-subTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #404040;
+}
+
+.featuresOfRetirement-card {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+  min-width: 260px;
+  min-height: 419px;
+}
+
+.greyBgBanner {
+  background-color: #f5f5f5;
+  padding: 30px 0 0;
+}
+
+/* stepsToBuyRetirement */
+#stepsToBuyRetirement {
+  margin: 25px 0;
+}
+
+.stepsToBuyRetirement-grid {
+  display: grid;
+  grid-template-columns: 5% 92%;
+  align-items: start;
+  gap: 3%;
+  margin: 20px 0;
+}
+
+.stepsToBuyRetirement-steps {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.steps {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.number {
+  background-color: #003366;
+  color: #FFF;
+  padding: 5px 13px;
+  border-radius: 48px;
+  /* width: 52px; */
+  height: 33px;
+  font-size: 15px;
+}
+
+.stepsToBuyRetirement-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+/* documentForRetirement */
+#documentForRetirement {
+  margin: 25px 0;
+}
+
+.documentForRetirement-table {
+  text-align: center;
+}
+
+.documentForRetirementTable th {
+  background-color: #EBEBEB;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+  padding: 10px 20px;
+}
+
+.documentForRetirementTable tr td {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.3px;
+  padding: 10px 20px;
+}
+
+.documentForRetirementTable td ul li {
+  list-style: inside;
+}
+
+/* topReasonForRetirement */
+#topReasonForRetirement {
+  margin: 25px 0;
+}
+
+.topReasonForRetirement-grid {
+  display: grid;
+  grid-template-columns: 7% 92%;
+  align-items: start;
+  gap: 10px;
+}
+
+.topReasonForRetirement-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.justifyStart {
+  justify-content: start !important;
+  gap: 25px !important;
+}
+
+/* factorsToConsider */
+#factorsToConsider {
+  margin: 25px 0;
+}
+
+.factorsToConsider-grid {
+  display: grid;
+  grid-template-columns: 3% 94%;
+  align-items: start;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.factorsToConsider-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+/* bestTimeToInvest */
+#bestTimeToInvest {
+  margin: 25px 0;
+}
+
+.bestTimeToInvest-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 25px 0 15px;
+}
+
+.bestTimeToInvest-flex {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+
+.bestTimeToInvest-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+  padding-bottom: 12px;
+}
+
+/* howToCalculate */
+#howToCalculate {
+  margin: 25px 0;
+}
+
+.howToCalculate-grid {
+  display: grid;
+  grid-template-columns: 3% 96%;
+  align-items: start;
+  gap: 1%;
+  margin: 20px 0;
+}
+
+.howToCalculate-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #000;
+  padding: 0 0 10px;
+}
+
+.gspnewlis li {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .24px;
+  margin-bottom: 24px
+}
+
+@media screen and (max-width:1440px) {
+    .tocContent {width: 530px;}
+}
+
+@media screen and (max-width:1366px) { 
+.tocContent {width: 430px; font-size: 15px;}
+}
+
+/* Media Query */
+@media only screen and (max-width:480px) {
+  .tocContent{margin: 2px 0; width: 100%}
+  .contenttable .tocReadMore{left: 32%;}
+  #topRetirementSection {
+    margin: 30px 0;
+  }
+
+
+  .topRetirementSection-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+  }
+
+  .topRetirementSection-img,
+  .retirementPlans-img {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .topRetirementSection-img img,
+  .retirementPlans-img img {
+    width: 75%;
+    height: auto;
+  }
+
+  .contenttable {
+    grid-template-columns: 100%;
+    gap: 0;
+    padding: 20px 8px 35px;
+    display: block !important;
+  }
+
+  .show-more-height div {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .tocContent {
+    width: 100%;
+  }
+
+  .authorDetails {
+    gap: 10px;
+  }
+
+  .authorImg img,
+  .authorImg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .nameTitle {
+    flex-direction: column;
+  }
+
+  .retirementPlans-grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .retirementPlans-flexR {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .typesOfRetirement-cards {
+    flex-wrap: wrap;
+  }
+
+  .typesOfRetirement-card {
+    padding: 15px 0;
+  }
+
+  .ctaFlex {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .kpp-knowMore {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .kpp-knowMore a {
+    font-size: 14px;
+  }
+
+  .blueBG {
+    background-color: #003366;
+  }
+
+  .benefitsOfRetirement-grid,
+  .benefitsOfRetirement-grid2 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .benefitsOfRetirementB-img,
+  .benefitsOfRetirementB2-img,
+  .benefitsOfRetirementB3-img {
+    display: none;
+  }
+
+  .benefitsOfRetirementB-text {
+    text-align: center;
+  }
+
+  .anuityPlan-grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .anuityPlan-flx {
+    grid-template-columns: 7% 90%;
+  }
+
+  .diffBtn-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+
+  /* .diffBtn-anuity,
+  .diffBtn-pension {
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-line;
+  } */
+  .whyNeedGoodPlan-grid {
+    display: grid;
+    grid-template-columns: 9% 90%;
+    align-items: start;
+    margin: 20px 0;
+  }
+
+  .featuresOfRetirement-grid,
+  .stepsToBuyRetirement-grid,
+  .bestTimeToInvest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featuresOfRetirement-card {
+    min-height: auto;
+  }
+  .topReasonForRetirement-grid {
+    grid-template-columns: 14% 84%;
+  }
+
+  .factorsToConsider-grid {
+    grid-template-columns: 6% 92%;
+  }
+  /* ashwini reddy css start */
+  .plan_arrow{width: 281px !important;}
+  .benefitsOfRetirement-flex { grid-template-columns: 7% 95%;}
+  .retire_arrow {width: 31px;}
+  .best_arrow {width: 194px !important;}
+  .howToCalculate-grid {    grid-template-columns: 7% 96%;}
+  .typesOfRetirement-pCard {
+    display: block !important;
+    max-width: 100%;
+}
+.typesOfRetirement-card{ max-width: 100%;}
+.stepsToBuyRetirement-grid{  margin-bottom: 30px;}
+ .why_arrow{ width: 30px;}
+ .best_arrow{min-width:40px}
+
+
+
+    /* ashwini reddy css start */
+} 
+
+
+/* ashwini reddy new css start */
+
+
+article{padding-right: 0;margin-top: -64px !important;}
+.tooltiptext a { padding: 20px;}
+.broch-btn{padding: 0 !important;}
+.tab-detail p{font-size: 16px !important;}
+
+.w-130 {
+  width: 130px;float: right;
+}
+
+
+
+ .text_secondary {
+  color: #004a8f;
+  display: block;
+  margin: auto;
+  max-width: 23rem !important;
+}
+
+#documentForRetirement .start{font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #000;
+  font-family: Lato-bold;text-align:start}
+  #documentForRetirement .below{font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #000;text-align:start;padding-bottom:34px}
+#topReasonForRetirement .seem{padding-bottom:28px}
+.benefitsOfRetirement-img{position: relative;}
+.benefitsOfRetirement-img{
+  
+  background-image: url(../images/retirment-sprite.webp);
+  
+  }
+  /* .whyNeedGoodPlan-grid{  background-image: url(../images/retirment-sprite.webp);} */
+  .retire_arrow{background-position: -586px -1093px;background-size: 383px;width: 50px;}
+    .why_arrow{background-position: -484px -902px; background-size: 315px;  height: 41px;}
+  .best_arrow{background-position: -554px -903px; background-size: 314px;  width: 158px; height: 47px;}
+  .plan_arrow{background-position: -550px -903px; background-size: 316px; width: 194px; height: 41px;}
+ .type1_arrow{background-position: -501px -708px; background-size: 255px; width: 101px; height: 86px;}
+ .type2_arrow{background-position: -968px -600px;  background-size: 260px; width: 72px; height: 86px;}
+ .type3_arrow{background-position: -869px -598px;background-size: 260px; width: 72px; height: 86px;}
+ .type4_arrow{background-position: -771px -600px;  background-size: 260px;  width: 72px;   height: 86px;}
+ .how_arrow{background-position: -394px -727px; background-size: 256px;height: 40px;}
+ .retirementPlans-flexR .trynow{width: 107px;text-align: center;}
+
+/* ashwini reddy new css  end*/
+
+.cal{color: #000;}

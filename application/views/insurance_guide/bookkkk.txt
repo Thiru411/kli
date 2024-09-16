@@ -1,0 +1,8 @@
+   <?php if($topicInfo->title=="Book Summary"){?>
+		  <a href=" https://www.kotaklife.com/buy-online-term-insurance/?utm_source=organic&utm_medium=website&utm_campaign=blog_cta&utm_content=<?=$topicInfo->title?>" target="_blank" class="redBtn" onclick="dataLayer.push({'event': 'event health insurance', 'category': 'new customers', 'action': 'health insurance', 'label': 'health insurance'});">Buy Term Plan</a>
+          <?php } ?>
+          
+          <?php if($topicInfo->title=="Current Affairs"){?>
+            <a href=" https://www.kotaklife.com/buy-online-term-insurance/?utm_source=organic&utm_medium=website&utm_campaign=blog_cta&utm_content=<?=$topicInfo->title?>" target="_blank" class="redBtn" onclick="dataLayer.push({'event': 'event health insurance', 'category': 'new customers', 'action': 'health insurance', 'label': 'health insurance'});">Buy Term Plan</a>
+          <?php } ?>
+		  

@@ -1,0 +1,1608 @@
+x
+/* Above is the default font for testing dont copy above */
+#topSection {
+  margin: 25px 0 0;
+}
+
+#whatIsTermInsurance {
+  background-color: #F4F5F6;
+  padding: 8% 0 5%;
+}
+
+#topSection {
+  border-bottom: 1px solid #AB2020;
+  padding-bottom: 10%;
+  position: relative;
+  z-index: 1;
+    top: 110px;
+}
+.online-product{margin-top: 10px !important;}
+#topSection .termTitle {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1E4679 !important;
+}
+
+.termDesc {
+  font-size: 16px;
+  font-weight: 500;
+  color: #404040;
+  padding: 10px 0;
+}
+.readalso{width: 20px; position: relative; top: 5px;}
+.productName-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.productName-banner p {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: #404040 !important;
+}
+
+.productCards {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 2fr 2fr 2fr; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  margin: 20px 0;
+  position: absolute;
+  top: 52%;
+  left: 15%;
+}
+
+.productCard {
+  border: 1px solid #AB2020;
+  padding: 4% 20px 20px;
+  min-width: 250px;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+
+.productCard1-title {
+  color: #AB2020;
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+.productCard1-title sup {
+  font-size: 20px;
+  color: #AB2020;
+  position: relative;
+  top: -25px;
+}
+
+.productCard1-title span {
+  font-size: 50px;
+  font-weight: 600;
+  color: #AB2020;
+}
+
+.productCard1-title .cr {
+  color: #AB2020;
+  font-size: 24px;
+}
+
+.productCard1-title2 {
+  font-size: 20px !important;
+  font-weight: 500;
+  margin-top: 5px !important;
+}
+
+.productCard1-title2 b {
+  font-size: 22px;
+}
+
+.buyNow-cta {
+  background-color: #AB2020;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 80%;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0 0;
+}
+
+.buyNow-cta:hover {
+  color: #FFF;
+}
+
+.buyNow-cta::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.whatIsTerm-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+}
+
+/* All id here */
+#benefitsOfTerm {
+  margin: 30px 0;
+}
+
+#termInsuranceCalculator,
+#whyChooseKotak,
+#whyBuyTerm,
+#termPlanSecure,
+#payoutOptions,
+#factorsInfluence {
+  background-color: #F9F9F9;
+  padding: 3% 0;
+  margin: 25px 0;
+}
+
+/* All Title here */
+.whatIsTerm-title,
+.benefitsOfTerm-title,
+.factorsAffecting-title,
+.termInsuranceCalc-title,
+.termInsuranceOptions-title,
+.whyChooseKotak-title,
+.typeOfTerm-title,
+.featureOfTerm-title,
+.whyBuyTerm-title,
+.whoShouldBuy-title,
+.bestTerm-title,
+.whyToBuyTerm-title,
+.whyYouNeedTerm-title,
+.termPlanSecure-title,
+.howToBuyTerm-title,
+.whyBuyTermOnline-title,
+.termInsuranceRider-title,
+.whatIsTermInsuranceRider-title,
+.rightTimeToBuy-title,
+.termVsLife-title,
+.factorsInfluence-title,
+.payoutOptions-title {
+  font-size: 26px !important;
+  font-weight: 500;
+  color: #404040;
+  letter-spacing: 0.3px;
+}
+
+/* All desc here */
+.whatIsTerm-desc,
+.benefitsOfTerm-desc,
+.factorsAffecting-desc,
+.termInsuranceCalc-desc,
+.termInsuranceOptions-desc,
+.whyChooseKotak-desc,
+.typeOfTerm-desc,
+.featureOfTerm-desc,
+.whyBuyTerm-desc,
+.whoShouldBuy-desc,
+.bestTerm-desc,
+.whyToBuyTerm-desc,
+.whyYouNeedTerm-desc,
+.termPlanSecure-desc,
+.howToBuyTerm-desc,
+.whyBuyTermOnline-desc,
+.termInsuranceRider-desc,
+.whatIsTermInsuranceRider-desc,
+.rightTimeToBuy-desc,
+.termVsLife-desc,
+.factorsInfluence-desc,
+.payoutOptions-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #404040;
+  letter-spacing: 0.3px;
+}
+
+.whatIsTerm-img {
+  margin: 0 auto;
+}
+
+.inline-links {
+  color: #0066CB;
+  text-decoration: underline;
+}
+
+.benefitsOfTerm-list,
+.factorsAffecting-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.benefitsOfTerm-arrow {
+  padding-right: 15px;
+}
+
+.benefitsOfTerm-arrow img {
+  width: 50px;
+  height: auto;
+}
+
+.benefitsOfTerm-subTitle,
+.factorsAffecting-subTitle,
+.termInsuranceCalc-subTitle,
+.typeOfTerm-subTitle,
+.featureOfTerm-subTitle,
+.whoShouldBuy-subTitle,
+.whyYouNeedTerm-subTitle,
+.whatIsTermInsuranceRider-subTitle,
+.payoutCard-subTitle,
+.factorsInfluence-subTitle,
+.payoutOptions-subTitle,
+.rightTimeToBuy-subTitle,
+.insuranceTerminology-subTitle {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+  letter-spacing: 0.3px !important;
+  margin-bottom: 10px !important;
+}
+
+.benefitsOfTerm-subDesc,
+.factorsAffecting-subDesc,
+.termInsuranceCalc-subDesc,
+.typeOfTerm-subDesc,
+.featureOfTerm-subDesc,
+.whoShouldBuy-subDesc,
+.whyYouNeedTerm-subDesc,
+.whatIsTermInsuranceRider-subDesc,
+.payoutCard-subDesc,
+.factorsInfluence-subDesc,
+.payoutOptions-subDesc,
+.insuranceTerminology-subDesc {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #000000 !important;
+  letter-spacing: 0.3px !important;
+  line-height: 25px !important;
+}
+
+#factorsAffecting {
+  margin: 25px 0;
+}
+
+.factorsAffecting-grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.factorsAffecting-list {
+  margin-top: 10px;
+}
+
+.factorsAffecting-img {
+  margin-right: 20px;
+}
+
+.factorsAffecting-img img {
+  width: 150px;
+  height: auto;
+}
+
+.factorsAffecting-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EFF8FF;
+  border: 1px solid #A2B3C1;
+  border-radius: 8px;
+  padding: 20px 45px;
+  margin: 40px 0 10px;
+}
+
+.factorsAffecting-banner h3 {
+  color: #003366;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.factorsAffecting-cta a,
+.termInsuranceCalc-cta a,
+.termPlan-cta2 a,
+.onlinePlans-cta a,
+.whyChooseKotak-cta a,
+.whoShouldBuy-cta a,
+.factorsInfluence-cta a {
+  background-color: #ED1C24;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: auto;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 12px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.factorsAffecting-cta a:hover,
+.termInsuranceCalc-cta a:hover,
+.termPlan-cta2 a:hover,
+.onlinePlans-cta a:hover,
+.whyChooseKotak-cta a:hover,
+.whoShouldBuy-cta a:hover,
+.factorsInfluence-cta a:hover {
+  color: #fff;
+}
+
+.factorsAffecting-cta a::before,
+.termInsuranceCalc-cta a::before,
+.termPlan-cta2 a::before,
+.onlinePlans-cta a::before,
+.whyChooseKotak-cta a::before,
+.whoShouldBuy-cta a::before,
+.factorsInfluence-cta a::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.termInsuranceCalc-grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  align-items: center;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.termInsuranceCalc-list {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.termInsuranceCalc-list img {
+  margin-right: 15px;
+}
+
+.termInsuranceCalc-img {
+  text-align: center;
+}
+
+.termInsuranceCalc-cta {
+  text-align: center;
+}
+
+#growthFuelled {
+  margin: 45px 0 25px;
+}
+
+.growthFuelled-grid {
+  display: grid;
+  grid-template-columns: 35% 62%;
+  gap: 10px;
+  align-items: center;
+}
+
+.growthKotak {
+  position: absolute;
+  top: -10%;
+  right: -15px;
+}
+
+.growthKotak img {
+  width: 80%;
+  height: auto;
+  animation: rotation 20s infinite linear;
+}
+
+.growthFuelled-score {
+  position: relative;
+}
+
+.growthFuelled-innerText {
+  position: absolute;
+  bottom: 11%;
+  left: 22%;
+  text-align: center;
+}
+
+.growthFuelled-innerText h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.growthFuelled-innerText p {
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  color: #000;
+  padding: 5px 0 0;
+}
+
+.growthFuelled-innerText p sup {
+  font-size: 8px;
+  font-weight: 400;
+  color: #000;
+}
+
+.growthFuelled-content h3 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.growthFuelled-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.growthFuelled-card {
+  background-color: #fff;
+  border: 1px solid #D6D6D6;
+  border-radius: 8px;
+  padding: 25px 25px 10px;
+  text-align: center;
+  min-width: 220px;
+  min-height: 205px;
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07); */
+}
+
+.growthFuelled-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.growthFuelled-card h4 {
+  color: #161616;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.growthFuelled-card h4 sup {
+  color: #161616;
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.growthFuelled-card p {
+  color: #161616;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#termInsuranceOptions {
+  margin: 25px 0 6%;
+}
+
+.termInsuranceOptions-table,
+.termVsLife-table {
+  margin: 20px 0;
+}
+
+.termInsuranceOptions-table table,
+.termVsLife-table table {
+  width: 100%;
+}
+
+.termInsuranceOptions-table tr:nth-child(even),
+.termVsLife-table tr:nth-child(even) {
+  background-color: #F5FCFF !important;
+}
+
+.termInsuranceOptions-table tr:nth-child(odd),
+.termVsLife-table tr:nth-child(odd) {
+  background-color: #FFF !important;
+}
+
+.termInsuranceOptions-table table th,
+.termVsLife-table table th {
+  background-color: #F5FCFF !important;
+  color: #404040 !important;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.termInsuranceOptions-table table tr td,
+.termVsLife-table table tr td {
+  font-size: 16px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.termInsuranceOptions-table table tr td img,
+.termVsLife-table table tr td img {
+  padding-right: 10px;
+}
+
+#fullWBanner {
+  margin-bottom: 25px;
+}
+
+.blueBg {
+  background-color: #003366;
+  padding: 25px;
+  min-height: 200px;
+}
+
+.blueBg-grid {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.blueBg-grid .blueBg-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #FFF !important;
+  letter-spacing: 0.3px;
+}
+
+.blueBg-img {
+  position: relative;
+}
+
+.blueBg-img img {
+  position: absolute;
+  top: -125px;
+  left: 0;
+  width: 280px;
+  height: auto;
+}
+
+.termPlan-cta2 {
+  margin: 20px 0;
+}
+
+#onlinePlans {
+  margin: 3% 0 2%;
+}
+
+.onlinePlans-card {
+  background-color: #fff;
+  border: 1px solid #DBDBDB;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.onlinePlans-grid {
+  display: grid;
+  grid-template-columns: 55% 35%;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.titleDownload {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.onlinePlans-card .onlinePlans-subTitle,
+.neweterm .onlinePlans-subTitle {
+  color: #003366 !important;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.onlinePlans-grid ul li {
+  list-style: disc;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.32px;
+}
+
+.onlinePlans-grid ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 0px;
+  padding: 0px 30px 20px;
+}
+.terms-tc{ padding-right: 20px;}
+.onlinePlans-grid img {
+  width: 300px;
+  height: 300px;
+}
+.broch-btn img{width: 40px;}
+
+.view-Cta {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.view-Cta1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0;
+}
+
+.viewPlans a {
+  border: 1px solid #ED1C24;
+  color: #ED1C24;
+  font-size: 15px;
+  font-weight: 600;
+  width: auto;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 11px 40px;
+  margin-right: 20px;
+}
+
+.onlinePlans-cta {
+  margin: 5px 0 0;
+}
+
+.online-kpi ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 40px;
+  margin-top: 10px;
+  padding: 0 30px 10px;
+}
+
+.online-kpi ul li {
+  list-style: disc;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.32px;
+}
+
+.offlineTxt {
+  color: #404040;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 15px 0;
+}
+
+.whyChooseKotak-grid {
+  display: grid;
+  grid-template-columns: 60% 35%;
+  align-items: center;
+  gap: 15px;
+}
+#whyChooseKotak .whyChooseKotak-list{margin-left: 20px;}
+.whyChooseKotak-list li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #404040;
+  padding: 10px;
+ list-style: disc;
+}
+
+.whyChooseKotak-cta {
+  text-align: center;
+  margin: 15px 0 0;
+}
+
+#typeOfTerm {
+  margin: 25px 0;
+}
+
+.typeOfTerm-cards {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0 0;
+}
+
+.typeOfTerm-card {
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  max-width: 530px;
+  min-height: 250px;
+  padding: 10px 25px;
+}
+
+.typeOfTerm-card img {
+  margin: 5px 0 10px;
+}
+
+.typeOfTerm-hr {
+  margin: 5px 0;
+  border-top: 1px solid #DBDBDB;
+}
+
+#featureOfTerm {
+  margin: 25px 0;
+}
+
+.featureOfTerm-cards {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0 0;
+}
+
+.featureOfTerm-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  max-width: 530px;
+  min-height: 100px;
+}
+
+.whyBuyTerm-grid {
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 10px;
+  align-items: center;
+}
+
+.whyBuyTerm-grid img {
+  margin: 0 auto;
+}
+
+#whoShouldBuy {
+  margin: 25px 0;
+}
+
+.whoShouldBuy-flex {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 25px 0 0;
+}
+
+.whoShouldBuy-cta {
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+#termTestimonial {
+  margin: 25px 0;
+}
+
+.termTestimonial-bg {
+  background-image: url(../images/term-insurance/testimonial.svg);
+  background-position: center;
+  text-align: center;
+  margin: 10px auto;
+  padding: 100px;
+  width: 904px;
+  height: 488px;
+}
+
+.termTestimonial-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+#howToChooseBestTerm {
+  margin: 25px 0;
+}
+
+.bestTerm-cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bestTerm-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 350px;
+  margin: 15px 0 0;
+}
+
+.bestTerm-no {
+  background-color: #083160;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bestTerm-subTitle {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+#whyToBuyTerm {
+  margin: 35px 0;
+}
+
+.whyToBuyTerm-flex,
+.whyBuyTermOnline-flex,
+.howMuchPlanCover-flex,
+.insuranceTerminology-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px 0 0;
+  width: 90%;
+}
+
+.whyBuyTermOnline-subTitle,
+.howMuchPlanCover-subTitle {
+  font-size: 18px !important;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.whyToBuyTerm-subDesc,
+.whyBuyTermOnline-subDesc,
+.howMuchPlanCover-subDesc {
+  font-size: 16px !important;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+#whyYouNeedTerm {
+  margin: 25px 0;
+}
+
+.whyYouNeedTerm-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 0;
+}
+
+.whyYouNeedTerm-card {
+  background-color: #FFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  max-width: 360px;
+  min-height: 320px;
+  padding: 25px;
+    
+}
+
+.whyYouNeedTerm-card img {
+  margin-bottom: 10px;
+}
+
+.termPlanSecure-grid {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.termPlanSecure-grid img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#howToBuyTerm {
+  margin: 35px 0;
+}
+
+.howToBuyTerm-img {
+  text-align: center;
+  margin: 5% 0 2%;
+}
+
+#whyBuyTerm {
+  margin: 35px 0;
+}
+
+.whyBuyTermOnline-subTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 0.3px;
+  padding-bottom: 5px;
+}
+
+.bgred {
+  background-color: #FFF3F3 !important;
+  border: 1px solid #CEB0AC !important;
+}
+
+#termInsuranceRider {
+  margin: 35px 0;
+}
+
+.termInsuranceRider-grid {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0 0;
+}
+
+.termInsuranceRider-subTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 0.3px;
+}
+
+.termInsuranceRider-subDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0.3px;
+}
+
+#whatIsTermInsuranceRider {
+  margin: 35px 0;
+}
+
+.whatIsTermInsuranceRider-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.whatIsTermInsuranceRider-subTitle {
+  margin-bottom: 5px !important;
+}
+
+#rightTimeToBuy {
+  margin: 35px 0;
+}
+
+.rightTimeToBuy-subHead {
+  color: #404040;
+  font-size: 19px !important;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+}
+
+.rightTimeToBuy-bg {
+  background-image: url(../images/term-insurance/Right-Time-to-Buy-Term-Insurance1.png);
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  width: 1083px;
+  height: 300px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.rightTimeToBuy-bg2 {
+  background-image: url(../images/term-insurance/Right-Time-to-Buy-Term-Insurance2.png);
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  width: 1083px;
+  height: 280px;
+  position: relative;
+}
+
+.rightTimeToBuy-bg3 {
+  background-image: url(../images/term-insurance/Right-Time-to-Buy-Term-Insurance3.png);
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  width: 1083px;
+  height: 300px;
+  position: relative;
+}
+
+.rightTimeToBuy-bg4 {
+  background-image: url(../images/term-insurance/Right-Time-to-Buy-Term-Insurance4.png);
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  width: 1083px;
+  height: 280px;
+  position: relative;
+}
+
+.rightTimeToBuy-bg5 {
+  background-image: url(../images/term-insurance/Right-Time-to-Buy-Term-Insurance5.png);
+  background-position: center;
+  text-align: center;
+  padding: 25px;
+  width: 1083px;
+  height: 280px;
+  position: relative;
+}
+
+.rightTimeToBuy-content-odd {
+  text-align: left;
+  padding: 2% 0 0 26%;
+        width: 75%;
+    margin-left: 25%;
+
+}
+
+.rightTimeToBuy-content-even {
+  text-align: right;
+  padding: 2% 26% 0 0;
+    width: 73%;
+}
+
+.payoutCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    gap:15px;
+}
+
+.payoutCard {
+  background-color: #fff;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 350px;
+  min-height: 300px;
+    flex-basis: 100%;
+}
+
+.payoutCardsBlank {
+  max-width: 350px;
+  min-height: 320px;
+  padding-top: 20px;
+    flex-basis: 100%;
+}
+
+.payoutCard-subHead {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  padding-bottom: 10px;
+}
+
+.payoutCard img {
+  margin-bottom: 10px;
+}
+
+#differenceBtwnLifeandTerm {
+  margin: 35px 0;
+}
+
+.alsoRead {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.factorsInfluence-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px 0 0;
+}
+
+.factorsInfluence-card {
+  background-color: #FFF;
+  border-radius: 8px;
+  max-width: 370px;
+  min-height: 360px;
+  padding: 25px;
+}
+
+.factorsInfluence-cta {
+  text-align: center;
+  margin: 30px 0 0;
+}
+
+#payoutOption {
+  margin: 35px 0;
+}
+
+.payoutOptions-grid {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.payoutOptions-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.payoutOptions-flex div {
+  max-width: 307px;
+  margin: 15px 0 0;
+}
+
+.payoutOptions-first img {
+  margin-top: 20px;
+}
+
+.insuranceTerminology-list {
+  padding-left: 35px;
+}
+
+.insuranceTerminology-list li {
+  font-size: 16px;
+  font-weight: 500;
+  list-style: disc;
+}
+
+.insuranceTerminology-flex {
+  margin: 30px 0 0;
+}
+
+.documentsRequired img {
+  width: 300px;
+  height: auto;
+}
+
+.rightTimeToBuy-bg {
+/*  background-image: none;*/
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.rightTimeToBuy-content-odd,
+.rightTimeToBuy-content-even {
+  padding: 10px;
+}
+
+
+ li.spec-wid::marker {
+    list-style-type: none;
+    content: none;
+}
+
+
+
+
+
+.tr {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.deskNone {
+  display: none;
+}
+
+.term-video-part{ width: 800px; margin: auto;}
+.pagingInfo-review-tes{    bottom: 6rem;}
+/* All media queries down */
+@media only screen and (max-width:1366px) {
+    .typeOfTerm-card{max-width: 49%; min-height: 270px;}
+    .featureOfTerm-card{max-width: 49%;}
+    .bestTerm-card{width: 31%;}
+    .factorsAffecting-banner{padding: 20px 20px;}
+    .whyYouNeedTerm-card {    flex-basis: 100%;min-height: 400px; flex-grow: 1;}
+    .factorsInfluence-card{    max-width: 32%; min-height: 380px; padding: 25px; flex-basis: 100%;}
+    .payoutOptions-flex div{    max-width: 49%;flex-basis: 100%;}
+}
+@media only screen and (max-width:480px) {
+    .whatIsTerm-title, .benefitsOfTerm-title, .factorsAffecting-title, .termInsuranceCalc-title, .termInsuranceOptions-title, .whyChooseKotak-title, .typeOfTerm-title, .featureOfTerm-title, .whyBuyTerm-title, .whoShouldBuy-title, .bestTerm-title, .whyToBuyTerm-title, .whyYouNeedTerm-title, .termPlanSecure-title, .howToBuyTerm-title, .whyBuyTermOnline-title, .termInsuranceRider-title, .whatIsTermInsuranceRider-title, .rightTimeToBuy-title, .termVsLife-title, .factorsInfluence-title, .payoutOptions-title{font-size: 20px !important;}
+    #termInsuranceRider{margin: 20px 0;}
+    #topSection{top: auto;}
+    #whatIsTermInsurance, #whyBuyTermOnline, .payoutOptions, #document-required-term-insurance{margin-top: 0;}
+    .typeOfTerm-card,  .featureOfTerm-card, .bestTerm-card, .whyYouNeedTerm-card, .factorsInfluence-card, .payoutOptions-flex div{max-width:100%; min-height: 100%;}
+    .term-video-part, .bestTerm-card{width: 100%}
+  #topSection {
+    border-bottom: none;
+    padding-bottom: 5px;
+  }
+
+  .productName-banner {
+    display: none;
+  }
+    .kotak-e-term-plan.kota-termplan-two{margin-left: 0 !important; margin-right: 0 !important;}
+    .rightTimeToBuy-bg, .rightTimeToBuy-bg2, .rightTimeToBuy-bg3, .rightTimeToBuy-bg4, .rightTimeToBuy-bg5{background: none !important;
+        height: auto;  padding: 0;  width: 100%; text-align: left; }
+    .rightTimeToBuy-content-even{text-align: left;}
+  .productCards {
+    position: relative;
+    flex-direction: column;
+    left: 0;
+  }
+    .rightTimeToBuy-content-odd, .rightTimeToBuy-content-even{margin-left: 0; width: 100%;}
+  .productCard {
+    padding-top: 25px;
+  }
+
+  .whatIsTerm-grid,
+  .factorsAffecting-grid,
+  .termInsuranceCalc-grid,
+  .whyChooseKotak-grid,
+  .whyBuyTerm-grid,
+  .termPlanSecure-grid,
+  .termInsuranceRider-grid,
+  .payoutOptions-grid {
+    grid-template-columns: 100%;
+    gap: 25px;
+  }
+    .payoutCards{display: block;}
+
+  .benefitsOfTerm-arrow img {
+    width: 150px;
+    height: auto;
+  }
+
+  .factorsAffecting-banner {
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+  }
+
+  .termInsuranceCalc-img img {
+    width: 50%;
+    height: auto;
+  }
+
+  .growthFuelled-grid {
+    grid-template-columns: 100%;
+  }
+
+  .growthFuelled-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .growthFuelled-card {
+    width: 100%;
+    min-height: 175px;
+  }
+
+  .blueBg-grid {
+    grid-template-columns: 100%;
+  }
+
+  .blueBg-img img {
+    display: none;
+  }
+
+  .bgBlue {
+    background: #003366 !important;
+    padding: 10px;
+  }
+
+  .blueBg {
+    background-color: transparent !important;
+  }
+
+  .blueBg-grid {
+    gap: 10px;
+  }
+
+  .onlinePlans-card {
+    padding: 20px;
+  }
+
+  .onlinePlans-grid {
+    grid-template-columns: 100%;
+  }
+
+  .onlinePlans-grid ul,
+  .online-kpi ul {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .viewPlans a,
+  .onlinePlans-cta a {
+    padding: 10px 20px;
+  }
+
+  #whyBuyTerm {
+    padding: 5% 0;
+  }
+
+  .termTestimonial-bg {
+    background-image: none;
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 40px 16px;
+    width: 100%;
+    height: auto;
+    border: 3px solid #035;
+    border-radius: 20px;
+  }
+
+  .testimonial-bg:before {
+    content: '';
+    background-image: url(../images/saving-plans/quotes.png);
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    background-size: 100px;
+    top: -3rem;
+    left: 34%;
+  }
+
+  .whyYouNeedTerm-cards {
+    flex-direction: column;
+  }
+
+  .termVsLife-table {
+    overflow-x: auto;
+  }
+
+  .termVsLife-table::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .mobNone {
+    display: none;
+  }
+
+  .mobblock {
+    display: block;
+  }
+
+  .stepsToBuy ul li {
+    margin: 20px 0;
+  }
+
+  .stepsToBuy ul li p, .stepsToBuy ul li h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+  }
+
+  .stepsToBuy ul li .stepsToBuySpan {
+    background-color: #003355;
+    width: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 50%;
+    color: #FFF !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 0 10px 10px 0;
+  }
+    .bor .accordion h3{margin-right: 13px;}
+}
+
+
+.online-term-plan-bg p a, .online-term-plan-bg span, .online-term-plan-bg b{padding-left: 3px; padding-right: 3px;}
+
+
+
+
+
+
+
+
+
+
+
+/* All Animation below */
+@keyframes shiny-btn1 {
+
+  /* Animations  same animations as insurance plans dont copy if same css is being used*/
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* .hid {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+} */
+
+/* .hid {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media(prefers-reduced-motion) {
+  .hid {
+    transition: none;
+  }
+} */
+
+.tp-sprites, .benefitsOfTerm-arrow, .ttp-sprites, .who-sprites, .whyneed-sprites, .wbuy-sprites, .pay-sprites, .factor-sprites, .assured-sprites{background-image: url(../images/term-insurance/term-plan-sprites.webp);}
+.kotak-term-logo{background-image: url(../images/term-insurance/term-plan-sprites.webp); width: 146px; height:146px; background-position:-276px -908px}
+.bti-icon{background-image: url(../images/term-insurance/term-plan-sprites.webp); width: 40px; height: 40px; background-position: -78px -560px;     flex-basis: 60px;}
+.fati-icon1{width: 40px; height: 50px; background-position: -530px -622px;  flex: 0 0 auto; background-size: 89rem;}
+.fati-icon2{width: 40px; height: 50px; background-position:-609px -622px;  flex: 0 0 auto; background-size: 89rem;}
+.fati-icon3{width: 40px; height: 50px; background-position: 5px -732px;  flex: 0 0 auto; background-size: 89rem;}
+.fati-icon4{width: 40px; height: 50px; background-position: -73px -732px;  flex: 0 0 auto; background-size: 89rem;}
+.itc-icon{width: 40px; height: 30px;  flex: 0 0 auto;     background-position: -515px -482px;}
+.tp-right-icon{display: flex;}
+.td-bti-icon{   flex-basis: unset; background-position: -78px -554px; width: 40px; height: 40px;}
+.tp-right-icon p{position: relative; top:7px; margin: 0;}
+.brochure{background-image: url(../images/term-insurance/term-plan-sprites.webp); width: 40px; height: 40px;background-position: -60px -140px; background-size: 560px;}
+.payoutOptions-desc{margin-top: 15px;}
+.ttp-sprites{ width: 40px; height: 50px;} 
+.ttip-icon1{background-position:0px -556px;}
+.ttip-icon2{background-position:-200px -195px}
+.ttip-icon3{background-position:-207px -1263px;}
+.ttip-icon4{background-position:-64px -1175px}
+.who-sprites{width: 48px; height: 50px; flex: 0 0 auto;}
+.who-icon1{background-position:-461px -201px}
+.who-icon2{background-position:1px -381px}
+.who-icon3{background-position:-81px -384px}
+.who-icon4{background-position:-327px -381px}
+.who-icon5{background-position:-427px -478px}
+.whyToBuyTerm-flex .bti-icon{flex: 0 0 auto; margin-top: 0.4rem; width: 24px;}
+.whyToBuyTerm-subDesc{margin-left: 0;}
+.whyneed-sprites{width: 55px; height: 60px;}
+.why-icon1{background-position:-287px -565px}
+.why-icon2{background-position:-238px -387px}
+.why-icon3{background-position:-548px -195px; width: 84px;}
+.wbuy-sprites{width: 34px; height: 38px; flex: 0 0 auto;}
+.wbuy-icon1{background-position:-574px -387px }
+.wbuy-icon2{background-position:5px -479px }
+.wbuy-icon3{background-position:-68px -479px}
+.wbuy-icon4{/*background-position:-143px -479px; */ background-position: -117px -393px;background-size: 660px;}
+.wbuy-icon5{background-position:-220px -479px  }
+.wbuy-icon6{background-position:-291px -479px }
+.wbuy-icon7{background-position:-360px -479px}
+.pay-sprites{width: 55px; height: 60px}
+.pay-icon1{    background-position: -660px -201px}
+.pay-icon2{    background-position: -749px -201px;}
+.bright-icon {    width: 40px; height: 40px; background-position:-157px -389px; flex: 0 0 auto;}
+.factor-sprites{ width: 50px; height: 50px;}
+.fact-icon1{background-position:-139px 44px}
+.fact-icon2{background-position:-219px 43px}
+.fact-icon3{background-position:-296px 44px}
+.fact-icon4{background-position:-0px -14px}
+.fact-icon5{background-position:-87px -14px}
+.fact-icon6{background-position:-177px -15px}
+.assured-sprites{width: 65px; height: 65px; flex: 0 0 auto;}
+.assu-icon1{background-position:-260px -0px}
+.assu-icon2{background-position:-360px -0px}
+.assu-icon3{background-position:-461px -0px}
+.assu-icon4{background-position:-562px -0px}
+.assu-icon5{background-position:-445px -287px}
+.assu-icon6{background-position:-665px -0px}
+.assu-icon7{background-position:0px -100px}
+.assu-icon8{background-position:-97px -100px}
+.assu-icon9{background-position:-199px -100px}
+.assu-icon10{background-position:-299px -100px}
+.assu-icon11{background-position:-404px -100px}
+.assu-icon12{background-position:-502px -100px}
+.assu-icon13{background-position:-605px -100px}
+.assu-icon14{background-position:-707px -100px}
+.assu-icon15{background-position:0 -200px}
+
+@media only screen and (max-width:480px) {
+    .bti-icon{background-position: -65px -480px; width: 30px !important; flex-basis:auto; flex: 0 0 auto; background-size: 690px;}
+    .td-bti-icon{    background-position: -56px -386px; background-size: 570px;}
+   .whyToBuyTerm-flex, .whyBuyTermOnline-flex, .howMuchPlanCover-flex, .insuranceTerminology-flex{gap:10px;}
+    .assured-sprites { width: 45px; height: 55px;flex: 0 0 auto;background-size: 510px !important;}
+    .assu-icon1{background-position:-167px 0px}
+    .assu-icon2{background-position:-230px 0px}
+    .assu-icon3{background-position:-290px -0px}
+    .assu-icon4{background-position:-360px 0px}
+    .assu-icon5{background-position:-284px -181px}
+    .assu-icon6{background-position:-421px 0}
+    .assu-icon7{background-position:0px -62px}
+    .assu-icon8{background-position:-61px -62px}
+    .assu-icon9{background-position:-128px -62px}
+    .assu-icon10{background-position:-191px -63px}
+    .assu-icon11{background-position:-250px -62px}
+    .assu-icon12{background-position:-320px -62px}
+    .assu-icon13{background-position:-381px -62px}
+    .assu-icon14{background-position:-444px -62px}
+    .assu-icon15{background-position:0px -120px}
+ 
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157.121" height="157.12" viewBox="0 0 157.121 157.12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="157.121" height="157.12" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_68" data-name="Rectangle 68" width="92.589" height="92.808" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_108" data-name="Group 108" transform="translate(-279 -924)">
+    <g id="Group_87" data-name="Group 87" transform="translate(279 924)">
+      <g id="Group_86" data-name="Group 86" clip-path="url(#clip-path)">
+        <path id="Path_176" data-name="Path 176" d="M78.56,156.3A77.745,77.745,0,1,0,.815,78.559,77.745,77.745,0,0,0,78.56,156.3" fill="#fff"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="77.745" cy="77.745" r="77.745" transform="translate(0.816 0.815)" fill="none" stroke="#a7a7a7" stroke-width="1.631"/>
+      </g>
+    </g>
+    <g id="Group_85" data-name="Group 85" transform="translate(311 956)">
+      <g id="Group_84" data-name="Group 84" clip-path="url(#clip-path-2)">
+        <path id="Path_174" data-name="Path 174" d="M27.389,75.191l1.5.9A35.716,35.716,0,1,0,16.672,63.979l.927,1.515L14.043,78.771ZM2.306,90.5,8.678,66.727A44,44,0,1,1,26.2,84.1Z" fill="none" stroke="#002c62" stroke-width="3.261"/>
+        <path id="Path_175" data-name="Path 175" d="M63.447,51.625c-1.809-1.083-4.169-2.291-6.3-1.421-1.641.67-2.686,3.236-3.744,4.545a1.567,1.567,0,0,1-2.028.438,28.561,28.561,0,0,1-14.241-12.2,1.748,1.748,0,0,1,.225-2.385c1.02-1.208,2.31-2.579,2.585-4.2s-.488-3.524-1.158-4.976c-.857-1.847-1.815-4.482-3.668-5.528a5.022,5.022,0,0,0-5.458.808,11.1,11.1,0,0,0-3.844,8.788,12.638,12.638,0,0,0,.344,2.786,23.323,23.323,0,0,0,2.673,6.166,50.139,50.139,0,0,0,2.792,4.244A43.077,43.077,0,0,0,43.735,59.932a36.909,36.909,0,0,0,7.549,3.593c2.955.977,5.59,1.991,8.783,1.383,3.342-.632,6.641-2.7,7.968-5.928a5.132,5.132,0,0,0,.37-3.023C67.954,53.872,65.131,52.633,63.447,51.625Z" fill="none" stroke="#e50019" stroke-width="3.374"/>
+      </g>
+    </g>
+  </g>
+</svg>

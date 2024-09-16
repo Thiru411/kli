@@ -1,0 +1,181 @@
+@media only screen and (max-width:1800px) {
+  .container{max-width: 1280px;}
+}
+
+
+
+@media only screen and (max-width: 1441px) {
+    .tulip-modal-div::after {right: -433px;}
+    .tulip_img::after {
+        width: 385px; right: -422px;}
+}
+
+@media only screen and (max-width: 1281px) { 
+    .tulip-modal-div::after {
+        right: -364px;
+    }
+    .tulip_img::after {
+        width: 313px;
+        right: -356px;
+    }
+    
+    }
+
+    @media only screen and (min-width:1280px){
+        .tuli_section .custom-div {padding-top: 37px;}
+        .tuli_section .tulip_logo { margin-bottom: 29px;}
+          }
+         
+    @media only screen and (max-width: 1024px){
+        .tulip-modal-div::after {
+            right: -236px;
+        }
+        .tulip_img::after {
+            width: 183px;
+            right: -223px;
+        }
+            .tuli_section .term_plan { font-size: 25px;}
+            .tuli_section .kotak_text {font-size: 37px;}
+            .tuli_section .ulip_earn {font-size: 20px;}
+        }
+
+    @media only screen and (max-width: 991px) {
+        .invest .divide_cls{display:unset;}
+        .invest .by_hand {width: 72px;height: 52px;}
+        .invest .crore {font-size: 13px;}
+        .invest .life {font-size: 8px;}
+        .invest .cards::before{width: 88px;}
+        .tulip-modal-div::after {
+          display: none;
+        }
+        .tulip-modal-div::before{
+            display: none;
+          }
+        .tulip_img::after {
+           display: none;
+        }
+    }
+   
+
+    
+@media only screen and (max-width: 768px) {
+/* header */
+/* .navbar-brand  */
+.logo {width: 146px;height: 32px;}
+.cal { width: 27px; margin-right: 31px;}
+.cal-img { margin-right: 22px; width: 27px;}
+/* header */
+
+/* banner section */
+.tuli_section{padding: 22px 19px 0px 19px}
+/* .tuli_section .cl_reverse{flex-direction: column-reverse;} */
+.tuli_section .term_plan{font-size: 18px;padding-bottom: 10px;}
+.tuli_section .custom-div{padding: 0 0 26px 0px;}
+/* .tuli_section .call_back{margin-top: 8px;} */
+.tuli_section .tulip_logo{width:141px;height: 22px;}
+.tuli_section .ulip{padding: 6px;width: 100%;max-width: 275px; color: #FFF;font-size: 12px; font-weight: 700;text-align: center; border-radius: 15px;background: #203D75 0% 0% no-repeat padding-box; text-decoration: none;margin: 0 auto;margin-top: 8px;}
+.tuli_section .ulip_earn{ font-size: 16px;font-weight: 600;padding: 10px 0px 24px 0px; width: 100%;text-align: center;}
+.tuli_section .borne_poly{font-size: 16px; padding: 12px;}
+.tuli_section .benega{color: #163D79;font-weight: 900;font-size:18px; padding-top: 13px;padding-left: 0;}
+.tuli_section .call_back{max-width:213px;font-size: 21px;padding: 10px;}
+/* banner section */
+
+
+
+/* introducing section */
+.introducing {padding: 27px 22px 28px;}
+.introducing-heading{padding-bottom:15px ; font-size: 18px;line-height: 25px;}
+.new-kotak{font-size: 14px !important; line-height:20px !important; margin-top:15px;}
+.introducing .text_blc{display: block;}
+
+/* introducing section */
+
+/* benifits section */
+.benfits{padding: 17px 26px 17px;}
+.benfits .benfits_heading{padding-bottom:15px !important;font-size: 18px;line-height: 25px;}
+.benfits .custom_space{margin-top:15px;}
+.custom_gap{margin-bottom: 20px;}
+.custom_space{margin-top: 20px !important;}
+.benfits .high{font-size: 14px; line-height: 14px; max-width:100%;}
+/* benifits section */
+
+/* why invest us section */
+.invest{margin: 20px 0px 9px; padding: 14px 0px 9px;}
+.invest .cards{max-width:100%;padding: 11px 4px;margin-bottom: 0px;}
+.invest .by_hand{width: 37px;height: 29px;margin-top: 0;}
+.invest .life{ font-size: 9px;max-width:100%;}
+.invest .why{font-size: 18px;padding-bottom:15px;margin-left: 12px;}
+.invest .crore{font-size: 14px;padding:0px 0px 2px 0px;}
+.invest .custom_pad{padding-bottom: 10px;}
+.invest .cards::before {display: none;}
+.invest .fam-img{height: 100%;}
+.invest .divide_cls{display: flex;}
+.invest .respo_img{width: 100%;height: 100%;}
+.invest .side_gp{margin-left: 6px;}
+/* .invest .by_hand1{width: 30px;height: 30px;} */
+/* why invest us section */
+
+/* disclaimer section */
+.accordion-kotak {padding: 20px;}
+/* disclaimer section */
+    
+/* streaming now section */
+.video_sec .video{height: auto;}
+.video_sec {padding-top: 30px}
+.video_sec .trem_plan{font-size:18px;font-weight: 400; line-height:28px;}
+.video_sec .gap_video{padding-bottom:30px !important;}
+.video_sec .streaming{ display: block;}
+/* streaming now section */
+
+
+/* plans_availabel start */
+.plans_availabel{padding: 30px  31px 11px 21px; }
+.plans::after{left:6%; max-width: 77px;}
+.plans_availabel .plans{padding-bottom: 15px; font-size: 18px;line-height: 25px;}
+.plans_availabel .here{font-size: 14px;margin-top: 15px;line-height: 18px;}
+/* plans_availabel end */
+
+
+/* .kotak_plan start */
+.kotak_plan{margin: 10px 0px 18px 0px; padding: 26px 31px 26px 21px;}
+.kotak_plan.plans_availabel .plans::after{display: none;}
+.kotak_plan .that{font-size: 14px;font-weight: 300;max-width:100%; margin:0 auto;line-height: 20px; }
+/* .kotak_plan end */
+
+/* key feature start */
+
+.key_feature {  padding: 17px 31px  23px 29px;}
+.key_feature .benfits_retrun{font-size: 14px;}
+.key_feature .benfits_heading{padding-bottom:15px;font-size: 18px;line-height: 25px;}
+.key_feature .show_story{margin-top: 43px;font-size: 25px;max-width:213px;}
+.custom_gap { margin-bottom: 30px;}
+.key_feature .high { font-size: 14px;line-height: 14px; max-width: 100%;line-height: 20px;}
+.key_feature .gap_feature{margin-top:22px;}
+
+/* key fwature end */
+
+
+}
+@media only screen and (max-width:431px){
+.plans::after {left: 11%;}
+
+}
+
+  @media only screen and (max-width:376px){
+    .plans::after{left:14%; max-width: 77px;}
+    .tuli_section .benega{width: 100%;max-width: 212px;margin: 0 auto;}
+
+  }
+  
+  @media only screen and (max-width:321px){
+    .plans::after{left:17%; max-width: 77px;}
+
+  }
+ 
+
+
+
+
+
+
+ 

@@ -1,0 +1,810 @@
+#investment_calculator{    background-color: #f4f4f4;     padding-bottom: 4rem;}
+.loadmores{text-align: center;}
+
+#bmi_calculator {
+  background-color: #FFF !important;
+  padding-bottom: 4rem;
+}
+
+.bmiage-weight {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+.bmiHeightFlex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.bmiHeightFlex-input {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.bmiHeightFlex-input div {
+  padding-left: 0 !important;
+}
+
+.bmiHeightFlex .heighLabel {
+  font-size: 12px !important;
+}
+
+.formLabel label {
+  margin-bottom: 12px !important;
+  color: #000 !important;
+}
+
+.formLabel .form-control {
+  padding-left: 5px !important;
+}
+
+
+.productCard_sidetitle {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  font-family: Lato;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.productCard_sidedesc {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.productCard_card {
+  /* border: 1px solid #CFCFCF; */
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.productCard_card img {
+  width: 95px;
+  height: 95px;
+}
+
+.productCard_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productCard-readMore {
+  padding: 8px 30px;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  background-color: #ed3237;
+  border-radius: 30px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.productCard-readMore:hover {
+  color: #FFF;
+}
+
+.productCard-readMore::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.productCard-invest {
+  padding: 8px 30px;
+  width: 70%;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #FFFFFF;
+  background-color: #ed3237;
+  border-radius: 30px;
+  position: relative !important;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.productCard-invest:hover {
+  color: #FFF;
+}
+
+.productCard-invest::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 4s ease-in-out infinite;
+}
+
+.calculatorList ul {
+  margin: 15px 0;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+  border-radius: 6px;
+}
+
+.calculatorList ul li {
+  padding: 12px 15px;
+  /* border: 1px solid #747474; */
+  background-color: #FFF;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .04);
+}
+
+.calculatorList ul li:first-child {
+  border-radius: 6px 6px 0 0;
+}
+
+.calculatorList ul li:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.calculatorList ul li a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.calculatorList ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #Ed1c24;
+  transition: width .2s ease-in;
+}
+
+.calculatorList ul li a:hover::after {
+  width: 100%;
+}
+
+.calculatorList ul li span::before {
+  content: '\25BA';
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.otherClass {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #333 !important;
+  letter-spacing: 0.3px;
+}
+
+.bmiCard {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+  border: 1px solid #dcdcdc;
+  border-radius: 1.6rem;
+  padding: 2rem 2rem;
+  background-color: #fff;
+  max-width: 100%;
+}
+
+.bmiCard-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.bmiCard-flex .formGroup input[type='number'] {
+  width: 20rem !important;
+  border-radius: 6px;
+  padding-bottom: 5px;
+}
+
+.bmiCard-flex .formGroup input[type='number']::placeholder {
+  color: #000;
+  font-family: Lato;
+  font-size: 12px;
+}
+
+.bmiCard-flex .formGroup input[type='number']:focus {
+  border: 1px solid #0066cb;
+}
+
+#imcContainer {
+  position: relative;
+}
+
+#imcContainer span {
+  width: 24%;
+  display: inline-block;
+  height: 6px;
+}
+
+#imcContainer .yellow {
+  background-color: rgb(255, 255, 0);
+}
+
+#imcContainer .green {
+  background-color: rgb(0, 128, 0);
+}
+
+#imcContainer .orange {
+  background-color: rgb(255, 68, 0);
+}
+
+#imcContainer .red {
+  background-color: rgb(255, 0, 0);
+}
+
+#IMCbar {
+  background-color: #292929;
+  height: 18px;
+  width: 5px;
+  position: absolute;
+  transition: 2s;
+  left: 0;
+  top: -6%;
+}
+
+.bmi-value,
+.category {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+
+.calculator-submit {
+  text-align: center;
+  padding: 1rem 1rem;
+  color: #fff;
+  font-family: Roboto-Semibold;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  background: #ed1c24;
+  border: 1px solid #ed1c24;
+  border-radius: 0.8rem;
+  display: inline-block;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 15rem;
+}
+
+.formGroup {
+  margin-bottom: 3rem;
+}
+
+.bmi-value .message,
+.category .message {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+.formLabel input::-webkit-outer-spin-button,
+.formLabel input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.formLabel input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#bmiCalculator,
+#whyUse,
+#bodyMassIndex,
+#healthRisk {
+  margin: 15px 0;
+}
+
+.bmiCalculator-grid {
+  display: grid;
+  grid-template-columns: 35% 55%;
+  align-items: center;
+  gap: 20px;
+}
+
+.bodyMassIndex-grid {
+  display: grid;
+  grid-template-columns: 55% 35%;
+  align-items: center;
+  gap: 20px;
+}
+
+.bmiCalculator-img img {
+  width: 100%;
+  height: auto;
+}
+
+.bodyMassIndex-img img {
+  width: 100%;
+  height: auto;
+}
+
+.bmiCalculator-title,
+.bodyMassIndex-title,
+.whyUse-title,
+.healthRisk-title,
+.healthRisk-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+    font-family: 'Lato-Bold'; 
+}
+
+.bmiCalculator-desc,
+.bodyMassIndex-desc,
+.whyUse-desc,
+.healthRisk-desc,
+.healthRisk-desc {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.bodyMassIndex-list,
+.whyUse-list,
+.healthRisk-list,
+.healthRisk-list {
+  padding: 10px 20px;
+}
+
+.bodyMassIndex-list li,
+.whyUse-list li,
+.healthRisk-list li,
+.healthRisk-list li {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.whyUse-formula {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #000;
+  margin: 15px 0;
+}
+
+.whyUse-formula sup {
+  font-size: 12px;
+}
+
+.whyUse-table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+.whyUse-table table {
+  width: 50%;
+}
+
+.whyUse-table table tr td {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px !important;
+}
+
+.whyUse-table table th {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  background-color: #003366 !important;
+}
+
+.whyUse-table table tr:nth-child(even) {
+  background-color: #eff8ff;
+}
+
+.whyUse-center {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.inline-links {
+  color: #0066cb;
+}
+
+.healthRisk-list {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+
+.result-btnGrid {
+  text-align: center;
+}
+
+.bmiChart {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.flexB {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.bmiInfo-text {
+  margin-top: 44px;
+}
+
+.bmiInfo-text p {
+  color: #3f3f3f;
+  font-size: 14px;
+  font-weight: 500;
+    text-align: center;
+
+}
+
+#otherCalc {
+  margin: 25px 0;
+}
+
+.otherCalcCard {
+  padding: 20px;
+  border-radius: 1.6rem;
+  border: 1px solid #dcdcdc;
+  background-color: #f7f7f7;
+}
+
+.calculatorList {
+  margin: 15px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculatorList li {
+  padding: 12px 15px;
+  background-color: #FFF;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.calculatorList .secondCard {
+  margin: 0 20px;
+}
+
+.calculatorList li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.calculatorList li img {
+  width: 60px;
+  height: 60px;
+}
+
+.calculatorList li:hover {
+  border: 1px solid #ed1c24;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+}
+
+
+.categoryBlock {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-color: #ccc;
+}
+
+/* New */
+.headSection {
+  margin: 25px 0;
+}
+
+.bmiHeadTitle {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 5px 0;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.bmiDesc {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+}
+
+#bmiChildren {
+  margin: 25px 0;
+}
+
+.bmiChildren-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+        font-family: 'Lato-Bold';
+}
+
+.bmiChildren-desc {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.ptb10 {
+  padding: 10px 0;
+}
+
+#bodyMassIndex{top:117px;}
+#comppundFaq{margin-top:2rem;}
+.interactionWrap section{top:117px;}
+
+@media only screen and (max-width:480px) {
+    #bodyMassIndex{top:117px; top:0;}
+  .bmiCalculator-grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .bodyMassIndex-grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .bmiCard {
+    grid-template-columns: 100%;
+  }
+
+  .productCard_card {
+    margin-top: 10px;
+  }
+
+  .bmiCalculator-img {
+    text-align: center;
+  }
+
+  .bmiCalculator-img img {
+    width: 75%;
+    height: auto;
+  }
+
+  .whyUse-table table {
+    width: 100%;
+  }
+
+  .healthRisk-list {
+    grid-template-columns: 1fr;
+  }
+
+  .bmiCard-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .bmiHeightFlex-input {
+    flex-direction: column;
+  }
+
+  .bmiCard-flex .formGroup input[type='number'] {
+    width: 30rem !important;
+  }
+
+  .bmiCard {
+    margin-top: 20px;
+  }
+
+  .calculatorList {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .calculatorList li {
+    width: 100%;
+  }
+
+  .calculatorList .secondCard {
+    margin: 0;
+  }
+
+  .otherCalcCard {
+    margin-top: 15px;
+  }
+}
+.bmislick button.slick-next {
+  bottom: -90px;
+}
+
+.bmislick button.slick-prev {
+  bottom: -90px;
+}
+
+.bmislick button.slick-next {
+  background-image: url(../images/btnslicknext.svg)!important;
+  background-size: auto;
+  left: unset;
+  z-index: 1000;
+  right: 30px;
+  top: unset;
+  bottom: -50px;
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 0;
+  margin: 0
+}
+
+.bmislick button.slick-prev {
+  background-image: url(../images/btnslickprev.svg)!important;
+  background-size: auto;
+  left: unset;
+  z-index: 1000;
+  right: 67px;
+  top: unset;
+  bottom: -50px;
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 0;
+  margin: 0
+}
+.pagingInfo-facslick .finished_count {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .32px;
+  line-height: 26px
+}
+.pagingInfo-facslick .total_count {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .32px;
+  line-height: 26px
+}
+
+.pagingInfo-facslick {
+  position: absolute;
+  bottom: 22% !important;
+  right: 23% !important;
+}
+/* ashwini reddy css start */
+/* .healthRisk-subTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+.disc{list-style:disc ;}
+.healthRisk-list {
+ 
+  grid-template-columns:unset !important;
+}
+#idealBmi {
+  margin: 20px 0;
+}
+
+.bmi-table {
+  width: 100%;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.healthRisk-subtitle {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 0.3px;
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+.disc {
+  list-style: disc;
+}
+
+.bmiUseGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  gap: 18px;
+}
+.bmi-table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+
+
+.bmi-table tr td {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px !important;
+}
+
+.bmi-table th {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  background-color: #003366 !important;
+}
+
+.bmi-table tr:nth-child(even) {
+  background-color: #eff8ff;
+}
+.healthRisk-listG {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 10px;
+}
+.healthRisk-listG li {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #000;
+}
+
+.space-move{margin-left: 20px; margin-top: 2rem;} */

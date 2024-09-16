@@ -1,0 +1,535 @@
+a,p,span{padding-left: 3px; padding-right: 3px;}
+
+ @media only screen and (max-width:1366px){
+    
+    .paymentOfGratuity-card{max-width: 312px;}
+    .paymentOfGratuity-card {
+        max-width: 275px;
+        min-height: 252px;
+        background-color: #f9f9f9;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 0 9px 0 15px !important;
+    }
+    .paymentOfGratuity-cards{justify-content: unset !important;}
+    .benefitsOfUsing-cards{justify-content: unset !important;}
+    .benefitsOfUsing-card{ margin: 0 9px 0 15px !important;}
+
+  } 
+
+  .inline-links {
+    color: #004a8f;
+    text-decoration: underline;
+  }
+  
+  /*  */
+  
+  .headSection {
+    margin: 25px 0;
+  }
+  
+  /* all id for section */
+  #whyUseFd {
+    margin: 3% 0;
+  }
+  
+  #calculateReturns {
+    margin: 2% 0;
+  }
+  
+  #underStandingKeyfactor {
+    margin: 2% 0;
+  }
+  
+  /*  */
+  
+  .gratuityCard {
+    border-radius: 6px;
+    padding: 2rem 2rem;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  .gratuityGrid {
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 15px;
+  }
+  
+  .resultBox {
+    background-color: #EBF6FF;
+    border: 1px solid #C7D6E3;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .resultBox label {
+    font-size: 32px;
+    color: #000;
+  }
+  
+  .resultBox .outputBox {
+    border: none;
+    text-align: center;
+    font-size: 28px;
+  
+    color: #000;
+  }
+  
+  .gratuityCard-invest {
+    padding: 8px 30px;
+    width: 45%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    background-color: #ed3237;
+    border-radius: 30px;
+    position: relative !important;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin: 25px auto 0;
+  }
+  
+  .gratuityCard-invest:hover {
+    color: #FFF;
+  }
+  
+  .gratuityCard-invest::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 4s ease-in-out infinite;
+  }
+  
+  .pt10 {
+    padding-top: 10px;
+  }
+  
+  .pb15 {
+    padding-bottom: 15px;
+  }
+  
+  /*  */
+  .section_heading {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .gratuityDesc {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000 !important;
+    letter-spacing: 0.3px;
+    max-width: 1117px;
+  }
+  
+  #whatIsGratuity {
+    margin: 25px 0;
+  }
+  
+  .whatIsGratuity-title,
+  .formulaOfGratuity-title,
+  .whatisGratuity-title,
+  .eligiblityCriteria-title,
+  .howToUse-title,
+  .benefitsOfUsing-title,
+  .taxationRules-title,
+  .investmentOptions-title,
+  .paymentOfGratuity-title,
+  .eligibleGratuity-title,
+  .conclusion-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000 !important;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    font-family: 'Lato-Bold'
+  }
+  
+  .whatIsGratuity-desc,
+  .formulaOfGratuity-desc,
+  .whatisGratuity-desc,
+  .eligiblityCriteria-desc,
+  .howToUse-desc,
+  .benefitsOfUsing-desc,
+  .taxationRules-desc,
+  .investmentOptions-desc,
+  .paymentOfGratuity-desc,
+  .eligibleGratuity-desc,
+  .conclusion-desc {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000 !important;
+    letter-spacing: 0.3px;
+  }
+  
+  /*  */
+  #formulaOfGratuity {
+    margin: 25px 0;
+  }
+  
+  .formulaOfGratuity-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .formulaOfGratuity-formula {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding: 20px 0 0 0;
+  }
+  .gratuity{padding: 0 0 15px 0;}
+  
+  .formulaOfGratuity-list {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 20px 10px 0;
+    color: #000;
+  }
+  
+  .formulaOfGratuity-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /*  */
+  #whatisGratuity {
+    margin: 25px 0;
+  }
+  
+  /*  */
+  #eligiblityCriteria {
+    margin: 25px 0;
+  }
+  
+  .eligiblityCriteria-list {
+    margin-left: 30px;
+  }
+  
+  .eligiblityCriteria-list li {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    list-style: disc;
+    padding: 5px 0;
+  }
+  
+  .eligiblityCriteria-list li span {
+    font-weight: 700;
+  }
+  
+  /*  */
+  #howToUse {
+    margin: 15px 0;
+  }
+  
+  .howToUse-steps {
+    margin-left: 25px;
+  }
+  
+  .howToUse-step {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+  
+  /*  */
+  #benefitsOfUsing {
+    margin: 25px 0;
+  }
+  
+  .f15 {
+    font-size: 15px;
+  }
+  
+  .benefitsOfUsing-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin: 27px 0;
+  }
+  
+  .benefitsOfUsing-card {
+    border: 1px solid #C7D6E3;
+    padding: 20px;
+    border-radius: 22px;
+    max-width: 275px;
+    min-height: 306px;
+  }
+  
+  .benefitsOfUsing-subTitle,
+  .taxationRules-subTitle,
+  .investmentOptions-subTitle,
+  .paymentOfGratuity-subTitle,
+  .eligibleGratuity-subTitle {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+    letter-spacing: 0.3px;
+    font-family: 'Lato-Bold';
+  }
+  
+  /*  */
+  #taxationRules {
+    margin: 25px 0;
+  }
+  
+  .taxationRules-sec {
+    margin: 10px 0;
+    margin-left: 20px;position: relative;
+  }
+  .taxationRules-sec::before{position: absolute;
+    content: '';
+    background: black;
+    width: 7px;
+    height: 7px;
+    left: -17px;
+    border-radius: 50%;
+    top: 9px;}
+  .taxationRules-formula {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 15px;
+  }
+  
+  /*  */
+  #investmentOptions {
+    margin: 25px 0;
+  }
+  
+  .investmentOptions-sec {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  /*  */
+  #paymentOfGratuity {
+    margin: 25px 0;
+  }
+  
+  .paymentOfGratuity-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .paymentOfGratuity-card {
+    max-width: 275px;
+    min-height: 252px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  /*  */
+  #eligibleGratuity {
+    margin: 25px 0;
+  }
+  
+  .eligibleGratuity-sec {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  /*  */
+  #conclusion {
+    margin: 25px 0;
+  }
+  
+  
+  /* Slider css used in other pages as well dont copy if already have in CSS files */
+  .form-range {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  
+  .form-range {
+    color: #ed1c24;
+    --thumb-height: 1.125em;
+    --track-height: 1px;
+    --track-color: rgba(0, 0, 0, 0.1);
+    --clip-edges: 0.125em;
+  }
+  
+  .form-range {
+    position: relative;
+    background: #fff0;
+    overflow: hidden;
+  }
+  
+  .form-range:active {
+    cursor: grabbing;
+  }
+  
+  /* === WebKit specific styles === */
+  .form-range,
+  .form-range::-webkit-slider-runnable-track,
+  .form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    transition: all ease 100ms;
+    height: var(--thumb-height);
+  }
+  
+  .form-range::-webkit-slider-runnable-track,
+  .form-range::-webkit-slider-thumb {
+    position: relative;
+  }
+  
+  .form-range::-webkit-slider-thumb {
+    --thumb-radius: calc(1.125em * 0.5) - 1px;
+    --clip-top: calc((var(--thumb-height) - var(--track-height)) * 0.5 - 0.5px);
+    --clip-bottom: calc(var(--thumb-height) - var(--clip-top));
+    --clip-further: calc(100% + 1px);
+    --box-fill: calc(-100vmax - var(--thumb-width, var(--thumb-height))) 0 0 100vmax #ffbebe;
+  
+    width: var(--thumb-width, var(--thumb-height));
+    background: linear-gradient(currentColor 0 0) scroll no-repeat left center / 50% calc(var(--track-height) + 1px);
+    background-color: currentColor;
+    box-shadow: var(--box-fill);
+    border-radius: var(--thumb-width, var(--thumb-height));
+  
+    filter: brightness(100%);
+    clip-path: polygon(100% -1px,
+        var(--clip-edges) -1px,
+        0 var(--clip-top),
+        -100vmax var(--clip-top),
+        -100vmax var(--clip-bottom),
+        0 var(--clip-bottom),
+        var(--clip-edges) 100%,
+        var(--clip-further) var(--clip-further));
+  }
+  
+  .form-range:active::-webkit-slider-thumb {
+    filter: brightness(var(--brightness-down));
+    cursor: grabbing;
+  }
+  
+  .form-range::-webkit-slider-runnable-track {
+    background: linear-gradient(var(--track-color) 0 0) scroll no-repeat center / 100% calc(var(--track-height) + 1px);
+  }
+  
+  /* Slider Css ends */
+  
+  .hide-span {
+    display: none;
+  }
+ 
+  
+  
+  
+  @media only screen and (max-width:480px) {
+  
+
+    .gratuity_arrow {
+        background-position: -380px -1406px;
+        background-size: 170px;
+        width: 40px !important;
+        height: 24px; }
+    .tick_arrow {width: 132px !important;  background-position: -336px -1406px !important;}
+    .original_arrow {  width: 177px !important;}
+    .gratuityGrid,
+    .formulaOfGratuity-grid {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  
+    .benefitsOfUsing-card,
+    .paymentOfGratuity-card {
+      max-width: 100%;
+      min-height: auto;
+    }
+  
+    .formulaOfGratuity-img img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
+  
+  /* Below animation */
+  @keyframes shiny-btn1 {
+    0% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0;
+    }
+  
+    80% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0.5;
+    }
+  
+    81% {
+      -webkit-transform: scale(4) rotate(45deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: scale(50) rotate(45deg);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes shiny-btn1 {
+    0% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0;
+    }
+  
+    80% {
+      -webkit-transform: scale(0) rotate(45deg);
+      opacity: 0.5;
+    }
+  
+    81% {
+      -webkit-transform: scale(4) rotate(45deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: scale(50) rotate(45deg);
+      opacity: 0;
+    }
+  }
+
+  .benefitsOfRetirement-img{ background-image: url(../images/ppf-grauity-sprite.webp); }
+   
+    .gratuity_arrow{background-position: -384px -1406px; background-size: 170px;  width: 17px;  height: 24px;}
+    .tick_arrow{background-position: -338px -1406px;  background-size: 170px;  height: 24px;  min-width: 24px;}
+    .original_arrow{background-position: -575px 39px;  background-size: 255px;  min-width: 44px;  height: 39px;}
